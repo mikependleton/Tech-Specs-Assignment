@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <div class="container">
+        <title>home page file</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<nav class="navbar navbar-expand-lg bg-secondary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navigation Bar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{% url 'readme' %}">Readme.md</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{% url 'upload' %}">upload</a>
+                </li>
+                </li>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-8"><u>Project to develope a file analysis app.</u></h1>
+    </div>
+
+    <div class="jumbotron">
+        <h4 class="display-10">File review can be intensive.
+            Working in support for over five years and in Information Technology around a span of 18 years
+            has shown me that there is not very many tools available inorder to automate rile analysis review,
+            which will serve as the purpose of this app</h4>
+    </div>
+
+    <div class="jumbotron">
+        <h4 class="display-10">Below is an example image which is a lot of what a technician would have to rey
+            on without digging deep into a log review.
+        </h4>
+    </div>
+
+
+
+
+
+    <figure>
+        {% load static %}
+        <img src="{% static 'generror.png' %}" alt="gen error image" width="400" height="200">
+        <figcaption>Generic errors example.</figcaption>
+
+
+
+    </figure>
+    <figcaption>
+        <figcaption class="blockquote-footer">
+            Error:
+            There is a problem with this Windows installer package, Sited from:
+            https://support.source-elements.com/source-connect/error-there-is-a-problem-with-this-windows-installer-package
+        </figcaption>
+
+        <div class="jumbotron">
+            <h4 class="display-10">The app will be intuitive, please see the readme.md for the requirements and
+                objectives.
+                I have also created the upload form as stated in the readme as well. </h4>
+        </div>
+
+        <div class="jumbotron">
+            <h4 class="display-10">Currently there are only two log types: .log and .txt. If you upload any other file
+                types, the form will direct you about the error. </h4>
+        </div>
+
+</body>
+
+<div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</div>
+
+</html>
