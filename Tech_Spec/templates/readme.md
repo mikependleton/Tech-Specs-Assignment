@@ -37,7 +37,15 @@
         </div>
     </nav>
 
-
+{% block content %}
+{% if user.is_authenticated %}
+Hi {{ user.username }}!
+<p><a href="{% url 'logout' %}">Log Out</a></p>
+{% else %}
+<p>You are not logged in</p>
+<a href="{% url 'login' %}">Log In</a>
+{% endif %}
+{% endblock %}
 
 <div class="jumbotron">
     <h1 class="display-6">Project Requirements</h1>
