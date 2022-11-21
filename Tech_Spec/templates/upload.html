@@ -26,6 +26,9 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="{% url 'upload' %}">upload</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{% url 'read_file' %}">Analyze File</a>
+                </li>
                 </li>
                 </li>
             </ul>
@@ -33,8 +36,18 @@
     </div>
     </div>
 </nav>
+{% block content %}
+{% if user.is_authenticated %}
+Hi {{ user.username }}!
+<p><a href="{% url 'logout' %}">Log Out</a></p>
+{% else %}
+<p>You are not logged in</p>
+<a href="{% url 'login' %}">Log In</a>
+{% endif %}
+{% endblock %}
 
 <body>
+
     <center>
         <div class="jumbotron">
             <h1 class="display-6">Developing file review app.</h1>

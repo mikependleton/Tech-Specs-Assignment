@@ -1,0 +1,25 @@
+?0253<2*78
+=8#*?#?9<%
+
+att dns
+
+Primary DNS 	68.94.156.9
+Secondary DNS 	68.94.157.9
+
+
+
+
+?jxw5#%v3i37
+
+
+
+wan1 on usg
+74:83:C2:1B:EA:89
+
+wan1 on Dream Machine Pro
+
+e0-63-da-c5-01-11
+
+Wan2
+e0:63:da:c5:01:12
+

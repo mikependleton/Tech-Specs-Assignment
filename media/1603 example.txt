@@ -1,0 +1,12 @@
+MSI (s) (EC:3C) [16:40:41:953]: Executing op: ActionStart(Name=StopServices,Description=Stopping services,Template=Service: [1])
+MSI (s) (EC:3C) [16:40:41:953]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=1300000)
+
+MSI (s) (EC:3C) [19:22:31:626]: Product: ############# ######## Platform -- Error 1921. Service ‘######## ####### ###### Service' (###########) could not be stopped.  Verify that you have sufficient privileges to stop system services.
+
+Error 1921. Service ‘######## ####### ####### Service' (#############) could not be stopped.  Verify that you have sufficient privileges to stop system services.
+Are you sure you want to cancel?
+MSI (s) (EC:3C) [19:22:31:626]: PROPERTY CHANGE: Deleting UpdateStarted property. Its current value is '1'.
+Action ended 19:22:31: InstallFinalize. Return value 3.
+Action ended 19:22:31: INSTALL. Return value 3.
+Property(N): UpgradeCode = {6C191C3E-0B90-4580-8E3F-9A49FC86E37A}
+Property(N): BACKUPFOLDER = C:\Windows\ELAMBKUP\

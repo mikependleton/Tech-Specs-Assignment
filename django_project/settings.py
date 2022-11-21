@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "Tech_Spec",
+    "crispy_forms",
 ]
 
 MIDDLEWARE = [
@@ -135,3 +136,8 @@ MEDIA_URL = "media/"
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
+LOGIN_REDIRECT_URL = "/upload"
+LOGOUT_REDIRECT_URL = "/home"

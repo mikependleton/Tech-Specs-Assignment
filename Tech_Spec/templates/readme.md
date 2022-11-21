@@ -26,6 +26,9 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{% url 'upload' %}">upload</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{% url 'read_file' %}">Analyze File</a>
+                    </li>
                     </li>
                     </li>
                 </ul>

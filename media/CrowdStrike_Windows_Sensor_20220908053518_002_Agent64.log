@@ -1,0 +1,1235 @@
+=== Verbose logging started: 2022-09-08  5:35:21  Build type: SHIP UNICODE 5.00.10011.00  Calling process: C:\Program Files (x86)\CSInstallTemp{38DE382E-7831-4FBF-BCD6-C8A2D326180A}\.be\WindowsSensor.x64.exe ===
+MSI (c) (A4:EC) [05:35:21:720]: Resetting cached policy values
+MSI (c) (A4:EC) [05:35:21:720]: Machine policy value 'Debug' is 0
+MSI (c) (A4:EC) [05:35:21:720]: ******* RunEngine:
+           ******* Product: {D717B707-5B4F-4208-92E3-77FA8362A610}
+           ******* Action: 
+           ******* CommandLine: **********
+MSI (c) (A4:EC) [05:35:21:720]: Client-side and UI is none or basic: Running entire install on the server.
+MSI (c) (A4:EC) [05:35:21:721]: Grabbed execution mutex.
+MSI (c) (A4:EC) [05:35:21:722]: Cloaking enabled.
+MSI (c) (A4:EC) [05:35:21:722]: Attempting to enable all disabled privileges before calling Install on Server
+MSI (c) (A4:EC) [05:35:21:722]: Incrementing counter to disable shutdown. Counter after increment: 0
+MSI (s) (48:7C) [05:35:21:724]: Running installation inside multi-package transaction {D717B707-5B4F-4208-92E3-77FA8362A610}
+MSI (s) (48:7C) [05:35:21:724]: Grabbed execution mutex.
+MSI (s) (48:B0) [05:35:21:724]: Resetting cached policy values
+MSI (s) (48:B0) [05:35:21:725]: Machine policy value 'Debug' is 0
+MSI (s) (48:B0) [05:35:21:725]: ******* RunEngine:
+           ******* Product: {D717B707-5B4F-4208-92E3-77FA8362A610}
+           ******* Action: 
+           ******* CommandLine: **********
+MSI (s) (48:B0) [05:35:21:725]: Machine policy value 'DisableUserInstalls' is 0
+MSI (s) (48:B0) [05:35:21:725]: Note: 1: 2203 2: C:\WINDOWS\Installer\inprogressinstallinfo.ipi 3: -2147287038 
+MSI (s) (48:B0) [05:35:21:726]: SRSetRestorePoint skipped for this transaction.
+MSI (s) (48:B0) [05:35:21:726]: MSCOREE not loaded loading copy from system32
+MSI (s) (48:B0) [05:35:21:729]: End dialog not enabled
+MSI (s) (48:B0) [05:35:21:729]: Original package ==> C:\WINDOWS\Installer\6fdb2f5.msi
+MSI (s) (48:B0) [05:35:21:729]: Package we're running from ==> C:\WINDOWS\Installer\6fdb2f5.msi
+MSI (s) (48:B0) [05:35:21:729]: APPCOMPAT: Uninstall Flags override found.
+MSI (s) (48:B0) [05:35:21:729]: APPCOMPAT: Uninstall VersionNT override found.
+MSI (s) (48:B0) [05:35:21:729]: APPCOMPAT: Uninstall ServicePackLevel override found.
+MSI (s) (48:B0) [05:35:21:730]: APPCOMPAT: looking for appcompat database entry with ProductCode '{D717B707-5B4F-4208-92E3-77FA8362A610}'.
+MSI (s) (48:B0) [05:35:21:730]: APPCOMPAT: no matching ProductCode found in database.
+MSI (s) (48:B0) [05:35:21:733]: Machine policy value 'DisablePatch' is 0
+MSI (s) (48:B0) [05:35:21:733]: Machine policy value 'AllowLockdownPatch' is 0
+MSI (s) (48:B0) [05:35:21:733]: Machine policy value 'DisableLUAPatching' is 0
+MSI (s) (48:B0) [05:35:21:733]: Machine policy value 'DisableFlyWeightPatching' is 0
+MSI (s) (48:B0) [05:35:21:733]: APPCOMPAT: looking for appcompat database entry with ProductCode '{D717B707-5B4F-4208-92E3-77FA8362A610}'.
+MSI (s) (48:B0) [05:35:21:733]: APPCOMPAT: no matching ProductCode found in database.
+MSI (s) (48:B0) [05:35:21:734]: Transforms are not secure.
+MSI (s) (48:B0) [05:35:21:734]: Note: 1: 2205 2:  3: Control 
+MSI (s) (48:B0) [05:35:21:734]: PROPERTY CHANGE: Adding MsiLogFileLocation property. Its value is 'C:\WINDOWS\TEMP\CrowdStrike Windows Sensor_20220908053518_002_Agent64.log'.
+MSI (s) (48:B0) [05:35:21:734]: Command Line: ARPSYSTEMCOMPONENT=1 MSIFASTINSTALL=7 CID=3E16C0442BF145D6875DC3F655FFDC5A AID=1F6B4C43D31D4C72837D1FE505DF12C7 PROXYNAME= PROXYPORT= APP_PROXYPORT= APP_PROXYNAME= PROXYDISABLE=1 PACURL= VDI= DCU= NODC= NOFA= GROUPING_TAGS= BILLINGTYPE= PROVBYPASS= NO_START= DOWNGRADE=1 PW=********** PROVTOKEN=********** WIXFAILWHENDEFERRED= CONNECTORDER= REBOOT=ReallySuppress IGNOREDEPENDENCIES=ALL REMOVE=ALL CURRENTDIRECTORY=C:\WINDOWS\system32 CLIENTUILEVEL=3 MSICLIENTUSESEXTERNALUI=1 CLIENTPROCESSID=676 
+MSI (s) (48:B0) [05:35:21:734]: PROPERTY CHANGE: Adding PackageCode property. Its value is '{25CEB0E0-A22C-4EA5-8704-E133EE757A09}'.
+MSI (s) (48:B0) [05:35:21:734]: Product Code passed to Engine.Initialize:           '{D717B707-5B4F-4208-92E3-77FA8362A610}'
+MSI (s) (48:B0) [05:35:21:734]: Product Code from property table before transforms: '{D717B707-5B4F-4208-92E3-77FA8362A610}'
+MSI (s) (48:B0) [05:35:21:734]: Product Code from property table after transforms:  '{D717B707-5B4F-4208-92E3-77FA8362A610}'
+MSI (s) (48:B0) [05:35:21:734]: Product registered: entering maintenance mode
+MSI (s) (48:B0) [05:35:21:734]: Determined that existing product (either this product or the product being upgraded with a patch) is installed per-machine.
+MSI (s) (48:B0) [05:35:21:734]: Product {D717B707-5B4F-4208-92E3-77FA8362A610} is admin assigned: LocalSystem owns the publish key.
+MSI (s) (48:B0) [05:35:21:734]: Product {D717B707-5B4F-4208-92E3-77FA8362A610} is managed.
+MSI (s) (48:B0) [05:35:21:734]: MSI_LUA: Credential prompt not required, user is an admin
+MSI (s) (48:B0) [05:35:21:734]: PROPERTY CHANGE: Adding ProductState property. Its value is '5'.
+MSI (s) (48:B0) [05:35:21:734]: PROPERTY CHANGE: Adding ProductToBeRegistered property. Its value is '1'.
+MSI (s) (48:B0) [05:35:21:734]: Note: 1: 1402 2: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer 3: 2 
+MSI (s) (48:B0) [05:35:21:734]: Package name retrieved from configuration data: 'CsAgent.msi'
+MSI (s) (48:B0) [05:35:21:735]: Note: 1: 2262 2: AdminProperties 3: -2147287038 
+MSI (s) (48:B0) [05:35:21:735]: Machine policy value 'DisableMsi' is 1
+MSI (s) (48:B0) [05:35:21:735]: Machine policy value 'AlwaysInstallElevated' is 0
+MSI (s) (48:B0) [05:35:21:735]: User policy value 'AlwaysInstallElevated' is 0
+MSI (s) (48:B0) [05:35:21:735]: Product {D717B707-5B4F-4208-92E3-77FA8362A610} is admin assigned: LocalSystem owns the publish key.
+MSI (s) (48:B0) [05:35:21:735]: Product {D717B707-5B4F-4208-92E3-77FA8362A610} is managed.
+MSI (s) (48:B0) [05:35:21:735]: Running product '{D717B707-5B4F-4208-92E3-77FA8362A610}' with elevated privileges: Product is assigned.
+MSI (s) (48:B0) [05:35:21:735]: PROPERTY CHANGE: Adding ARPSYSTEMCOMPONENT property. Its value is '1'.
+MSI (s) (48:B0) [05:35:21:735]: PROPERTY CHANGE: Adding MSIFASTINSTALL property. Its value is '7'.
+MSI (s) (48:B0) [05:35:21:735]: PROPERTY CHANGE: Adding CID property. Its value is '3E16C0442BF145D6875DC3F655FFDC5A'.
+MSI (s) (48:B0) [05:35:21:735]: PROPERTY CHANGE: Adding AID property. Its value is '1F6B4C43D31D4C72837D1FE505DF12C7'.
+MSI (s) (48:B0) [05:35:21:735]: PROPERTY CHANGE: Adding PROXYDISABLE property. Its value is '1'.
+MSI (s) (48:B0) [05:35:21:735]: PROPERTY CHANGE: Adding DOWNGRADE property. Its value is '1'.
+MSI (s) (48:B0) [05:35:21:735]: PROPERTY CHANGE: Adding REBOOT property. Its value is 'ReallySuppress'.
+MSI (s) (48:B0) [05:35:21:735]: PROPERTY CHANGE: Adding IGNOREDEPENDENCIES property. Its value is 'ALL'.
+MSI (s) (48:B0) [05:35:21:735]: PROPERTY CHANGE: Adding REMOVE property. Its value is 'ALL'.
+MSI (s) (48:B0) [05:35:21:735]: PROPERTY CHANGE: Adding CURRENTDIRECTORY property. Its value is 'C:\WINDOWS\system32'.
+MSI (s) (48:B0) [05:35:21:735]: PROPERTY CHANGE: Adding CLIENTUILEVEL property. Its value is '3'.
+MSI (s) (48:B0) [05:35:21:735]: PROPERTY CHANGE: Adding MSICLIENTUSESEXTERNALUI property. Its value is '1'.
+MSI (s) (48:B0) [05:35:21:735]: PROPERTY CHANGE: Adding CLIENTPROCESSID property. Its value is '676'.
+MSI (s) (48:B0) [05:35:21:735]: Machine policy value 'DisableAutomaticApplicationShutdown' is 0
+MSI (s) (48:B0) [05:35:21:735]: PROPERTY CHANGE: Adding MsiRestartManagerSessionKey property. Its value is 'ddf33dde4cc0e34b977e2cb8ba0c08f1'.
+MSI (s) (48:B0) [05:35:21:735]: RESTART MANAGER: Session opened.
+MSI (s) (48:B0) [05:35:21:735]: PROPERTY CHANGE: Adding MsiSystemRebootPending property. Its value is '1'.
+MSI (s) (48:B0) [05:35:21:735]: TRANSFORMS property is now: 
+MSI (s) (48:B0) [05:35:21:735]: PROPERTY CHANGE: Adding PRODUCTLANGUAGE property. Its value is '1033'.
+MSI (s) (48:B0) [05:35:21:735]: PROPERTY CHANGE: Adding VersionDatabase property. Its value is '500'.
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\WINDOWS\system32\config\systemprofile\AppData\Roaming
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\WINDOWS\system32\config\systemprofile\Favorites
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Network Shortcuts
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\WINDOWS\system32\config\systemprofile\Documents
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Printer Shortcuts
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Recent
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\Microsoft\Windows\SendTo
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Templates
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\ProgramData
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\WINDOWS\system32\config\systemprofile\AppData\Local
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\WINDOWS\system32\config\systemprofile\Pictures
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\Users\Public\Desktop
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Start Menu
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\WINDOWS\system32\config\systemprofile\Desktop
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Templates
+MSI (s) (48:B0) [05:35:21:736]: SHELL32::SHGetFolderPath returned: C:\WINDOWS\Fonts
+MSI (s) (48:B0) [05:35:21:737]: Note: 1: 2898 2: MS Sans Serif 3: MS Sans Serif 4: 0 5: 16 
+MSI (s) (48:B0) [05:35:21:740]: MSI_LUA: Setting MsiRunningElevated property to 1 because the install is already running elevated.
+MSI (s) (48:B0) [05:35:21:740]: PROPERTY CHANGE: Adding MsiRunningElevated property. Its value is '1'.
+MSI (s) (48:B0) [05:35:21:740]: PROPERTY CHANGE: Adding Privileged property. Its value is '1'.
+MSI (s) (48:B0) [05:35:21:740]: Note: 1: 1402 2: HKEY_CURRENT_USER\Software\Microsoft\MS Setup (ACME)\User Info 3: 2 
+MSI (s) (48:B0) [05:35:21:740]: PROPERTY CHANGE: Adding USERNAME property. Its value is 'EC2'.
+MSI (s) (48:B0) [05:35:21:740]: Note: 1: 1402 2: HKEY_CURRENT_USER\Software\Microsoft\MS Setup (ACME)\User Info 3: 2 
+MSI (s) (48:B0) [05:35:21:740]: PROPERTY CHANGE: Adding COMPANYNAME property. Its value is 'Amazon.com'.
+MSI (s) (48:B0) [05:35:21:740]: PROPERTY CHANGE: Adding Installed property. Its value is '00:00:00'.
+MSI (s) (48:B0) [05:35:21:740]: PROPERTY CHANGE: Adding DATABASE property. Its value is 'C:\WINDOWS\Installer\6fdb2f5.msi'.
+MSI (s) (48:B0) [05:35:21:740]: PROPERTY CHANGE: Adding OriginalDatabase property. Its value is 'C:\WINDOWS\Installer\6fdb2f5.msi'.
+MSI (s) (48:B0) [05:35:21:740]: Machine policy value 'MsiDisableEmbeddedUI' is 0
+MSI (s) (48:B0) [05:35:21:740]: EEUI - Disabling MsiEmbeddedUI due to existing external or embedded UI
+MSI (s) (48:B0) [05:35:21:740]: EEUI - Disabling MsiEmbeddedUI for service because it's not a quiet/basic install
+MSI (s) (48:B0) [05:35:21:740]: Note: 1: 2205 2:  3: PatchPackage 
+MSI (s) (48:B0) [05:35:21:740]: Machine policy value 'DisableRollback' is 0
+MSI (s) (48:B0) [05:35:21:740]: User policy value 'DisableRollback' is 0
+MSI (s) (48:B0) [05:35:21:740]: PROPERTY CHANGE: Adding UILevel property. Its value is '2'.
+=== Logging started: 2022-09-08  5:35:21 ===
+MSI (s) (48:B0) [05:35:21:740]: Note: 1: 2203 2: C:\WINDOWS\Installer\inprogressinstallinfo.ipi 3: -2147287038 
+MSI (s) (48:B0) [05:35:21:740]: PROPERTY CHANGE: Adding Preselected property. Its value is '1'.
+MSI (s) (48:B0) [05:35:21:740]: APPCOMPAT: [DetectVersionLaunchCondition] Launch condition already passes.
+MSI (s) (48:B0) [05:35:21:741]: PROPERTY CHANGE: Adding ACTION property. Its value is 'INSTALL'.
+MSI (s) (48:B0) [05:35:21:741]: Doing action: INSTALL
+Action start 5:35:21: INSTALL.
+MSI (s) (48:B0) [05:35:21:741]: Running ExecuteSequence
+MSI (s) (48:B0) [05:35:21:741]: Doing action: FindRelatedProducts
+MSI (s) (48:B0) [05:35:21:742]: Skipping FindRelatedProducts action: not run in maintenance mode
+Action start 5:35:21: FindRelatedProducts.
+MSI (s) (48:B0) [05:35:21:742]: Skipping action: SetFirstInstall (condition is false)
+MSI (s) (48:B0) [05:35:21:742]: Skipping action: SetInstallingForDowngrade (condition is false)
+MSI (s) (48:B0) [05:35:21:742]: Skipping action: SetUpgrading (condition is false)
+MSI (s) (48:B0) [05:35:21:742]: Doing action: SetUninstalling
+Action ended 5:35:21: FindRelatedProducts. Return value 0.
+MSI (s) (48:B0) [05:35:21:742]: PROPERTY CHANGE: Adding Uninstalling property. Its value is '1'.
+Action start 5:35:21: SetUninstalling.
+MSI (s) (48:B0) [05:35:21:742]: Skipping action: SetMaintenance (condition is false)
+MSI (s) (48:B0) [05:35:21:742]: Doing action: SetUninstallingForDowngrade
+Action ended 5:35:21: SetUninstalling. Return value 1.
+MSI (s) (48:B0) [05:35:21:743]: PROPERTY CHANGE: Adding UninstallingForDowngrade property. Its value is '1'.
+Action start 5:35:21: SetUninstallingForDowngrade.
+MSI (s) (48:B0) [05:35:21:743]: Doing action: AppSearch
+Action ended 5:35:21: SetUninstallingForDowngrade. Return value 1.
+Action start 5:35:21: AppSearch.
+MSI (s) (48:B0) [05:35:21:743]: Note: 1: 2262 2: Signature 3: -2147287038 
+MSI (s) (48:B0) [05:35:21:743]: PROPERTY CHANGE: Adding BACKUPFOLDER property. Its value is 'C:\Windows\ELAMBKUP\'.
+MSI (s) (48:B0) [05:35:21:743]: Doing action: WixQueryOsWellKnownSID
+Action ended 5:35:21: AppSearch. Return value 1.
+MSI (s) (48:B4) [05:35:21:745]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSIF39A.tmp, Entrypoint: WixQueryOsWellKnownSID
+MSI (s) (48:18) [05:35:21:745]: Generating random cookie.
+MSI (s) (48:18) [05:35:21:747]: Created Custom Action Server with PID 1512 (0x5E8).
+MSI (s) (48:5C) [05:35:21:771]: Running as a service.
+MSI (s) (48:5C) [05:35:21:772]: Hello, I'm your 32bit Elevated Non-remapped custom action server.
+MSI (s) (48!B0) [05:35:21:779]: PROPERTY CHANGE: Adding WIX_ACCOUNT_LOCALSYSTEM property. Its value is 'NT AUTHORITY\SYSTEM'.
+MSI (s) (48!B0) [05:35:21:779]: PROPERTY CHANGE: Adding WIX_ACCOUNT_LOCALSERVICE property. Its value is 'NT AUTHORITY\LOCAL SERVICE'.
+MSI (s) (48!B0) [05:35:21:779]: PROPERTY CHANGE: Adding WIX_ACCOUNT_NETWORKSERVICE property. Its value is 'NT AUTHORITY\NETWORK SERVICE'.
+MSI (s) (48!B0) [05:35:21:780]: PROPERTY CHANGE: Adding WIX_ACCOUNT_ADMINISTRATORS property. Its value is 'BUILTIN\Administrators'.
+MSI (s) (48!B0) [05:35:21:780]: PROPERTY CHANGE: Adding WIX_ACCOUNT_USERS property. Its value is 'BUILTIN\Users'.
+MSI (s) (48!B0) [05:35:21:780]: PROPERTY CHANGE: Adding WIX_ACCOUNT_GUESTS property. Its value is 'BUILTIN\Guests'.
+MSI (s) (48!B0) [05:35:21:780]: PROPERTY CHANGE: Adding WIX_ACCOUNT_PERFLOGUSERS property. Its value is 'BUILTIN\Performance Log Users'.
+MSI (s) (48!B0) [05:35:21:780]: PROPERTY CHANGE: Adding WIX_ACCOUNT_PERFLOGUSERS_NODOMAIN property. Its value is 'Performance Log Users'.
+Action start 5:35:21: WixQueryOsWellKnownSID.
+MSI (s) (48:B0) [05:35:21:782]: Doing action: LaunchConditions
+Action ended 5:35:21: WixQueryOsWellKnownSID. Return value 1.
+Action start 5:35:21: LaunchConditions.
+MSI (s) (48:B0) [05:35:21:782]: Doing action: ValidateProductID
+Action ended 5:35:21: LaunchConditions. Return value 1.
+Action start 5:35:21: ValidateProductID.
+MSI (s) (48:B0) [05:35:21:782]: Doing action: CsRemoveFolders
+Action ended 5:35:21: ValidateProductID. Return value 1.
+MSI (s) (48:F8) [05:35:21:784]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSIF3BB.tmp, Entrypoint: CsRemoveFolders
+MSI (s) (48:18) [05:35:21:784]: Generating random cookie.
+MSI (s) (48:18) [05:35:21:786]: Created Custom Action Server with PID 1716 (0x6B4).
+MSI (s) (48:5C) [05:35:21:803]: Running as a service.
+MSI (s) (48:5C) [05:35:21:806]: Hello, I'm your 64bit Elevated Non-remapped custom action server.
+Action start 5:35:21: CsRemoveFolders.
+MSI (s) (48!38) [05:35:21:815]: PROPERTY CHANGE: Adding _CSDOWNLOADSFOLDER_0 property. Its value is 'C:\WINDOWS\system32\drivers\CrowdStrike\Downloads\'.
+CsRemoveFolders:  Skipping CsRemoveFolder row: DeleteExtraFiles
+MSI (s) (48!38) [05:35:21:815]: Note: 1: 2262 2: RemoveFile 3: -2147287038 
+CsRemoveFolders:  Executing op: WcaAddTempRecord(Table=RemoveFile,FileKey=CsRfFiles,Component=InstallFolderPermissions,FileName=*.*,DirProperty=_CSDOWNLOADSFOLDER_0,InstallMode=2)
+CsRemoveFolders:  Executing op: WcaAddTempRecord(Table=RemoveFile,FileKey=CsRfFiles,Component=InstallFolderPermissions,FileName=(null),DirProperty=_CSDOWNLOADSFOLDER_0,InstallMode=2)
+CsRemoveFolders:  Skipping CsRemoveFolder row: DeleteCommonAppDataFolder
+CsRemoveFolders:  Skipping CsRemoveFolder row: DeleteUntrustedCommonAppDataFolderOnInstall
+CsRemoveFolders:  Skipping CsRemoveFolder row: CleanUntrustedCommonAppDataFolderOnUpgrade
+CsRemoveFolders:  Skipping CsRemoveFolder row: DeleteExtensibilityFolder
+MSI (s) (48:B0) [05:35:21:819]: Doing action: CostInitialize
+Action ended 5:35:21: CsRemoveFolders. Return value 1.
+MSI (s) (48:B0) [05:35:21:819]: Machine policy value 'MaxPatchCacheSize' is 10
+MSI (s) (48:B0) [05:35:21:821]: PROPERTY CHANGE: Adding ROOTDRIVE property. Its value is 'G:\'.
+MSI (s) (48:B0) [05:35:21:821]: PROPERTY CHANGE: Adding CostingComplete property. Its value is '0'.
+MSI (s) (48:B0) [05:35:21:821]: Note: 1: 2205 2:  3: Patch 
+MSI (s) (48:B0) [05:35:21:821]: Note: 1: 2205 2:  3: PatchPackage 
+MSI (s) (48:B0) [05:35:21:821]: Note: 1: 2205 2:  3: MsiPatchHeaders 
+MSI (s) (48:B0) [05:35:21:821]: Note: 1: 2205 2:  3: __MsiPatchFileList 
+MSI (s) (48:B0) [05:35:21:821]: Note: 1: 2205 2:  3: PatchPackage 
+MSI (s) (48:B0) [05:35:21:821]: Note: 1: 2228 2:  3: PatchPackage 4: SELECT `DiskId`, `PatchId`, `LastSequence` FROM `Media`, `PatchPackage` WHERE `Media`.`DiskId`=`PatchPackage`.`Media_` ORDER BY `DiskId`  
+MSI (s) (48:B0) [05:35:21:821]: Note: 1: 2205 2:  3: Patch 
+Action start 5:35:21: CostInitialize.
+MSI (s) (48:B0) [05:35:21:821]: Doing action: FileCost
+Action ended 5:35:21: CostInitialize. Return value 1.
+MSI (s) (48:B0) [05:35:21:822]: Note: 1: 2205 2:  3: MsiAssembly 
+Action start 5:35:21: FileCost.
+MSI (s) (48:B0) [05:35:21:822]: Doing action: CostFinalize
+Action ended 5:35:21: FileCost. Return value 1.
+MSI (s) (48:B0) [05:35:21:822]: PROPERTY CHANGE: Adding OutOfDiskSpace property. Its value is '0'.
+MSI (s) (48:B0) [05:35:21:822]: PROPERTY CHANGE: Adding OutOfNoRbDiskSpace property. Its value is '0'.
+MSI (s) (48:B0) [05:35:21:822]: PROPERTY CHANGE: Adding PrimaryVolumeSpaceAvailable property. Its value is '0'.
+MSI (s) (48:B0) [05:35:21:822]: PROPERTY CHANGE: Adding PrimaryVolumeSpaceRequired property. Its value is '0'.
+MSI (s) (48:B0) [05:35:21:822]: PROPERTY CHANGE: Adding PrimaryVolumeSpaceRemaining property. Its value is '0'.
+MSI (s) (48:B0) [05:35:21:822]: Note: 1: 2205 2:  3: MsiAssembly 
+MSI (s) (48:B0) [05:35:21:822]: Note: 1: 2228 2:  3: MsiAssembly 4:  SELECT `MsiAssembly`.`Attributes`, `MsiAssembly`.`File_Application`, `MsiAssembly`.`File_Manifest`,  `Component`.`KeyPath` FROM `MsiAssembly`, `Component` WHERE  `MsiAssembly`.`Component_` = `Component`.`Component` AND `MsiAssembly`.`Component_` = ? 
+MSI (s) (48:B0) [05:35:21:822]: PROPERTY CHANGE: Adding INSTALLFOLDER property. Its value is 'C:\WINDOWS\system32\drivers\CrowdStrike'.
+MSI (s) (48:B0) [05:35:21:822]: PROPERTY CHANGE: Adding CSPROGFOLDER property. Its value is 'C:\Program Files\CrowdStrike'.
+MSI (s) (48:B0) [05:35:21:822]: PROPERTY CHANGE: Adding CsExtensibilityBaseFolder property. Its value is 'C:\Program Files\CrowdStrike\Extensibility'.
+MSI (s) (48:B0) [05:35:21:822]: PROPERTY CHANGE: Adding CsFxmlFolder property. Its value is 'C:\Program Files\CrowdStrike\Extensibility\FXML'.
+MSI (s) (48:B0) [05:35:21:822]: PROPERTY CHANGE: Adding CsIdpFolder property. Its value is 'C:\Program Files\CrowdStrike\Extensibility\IDP'.
+MSI (s) (48:B0) [05:35:21:822]: PROPERTY CHANGE: Adding CsMemScanFolder property. Its value is 'C:\Program Files\CrowdStrike\Extensibility\MEMSCAN'.
+MSI (s) (48:B0) [05:35:21:822]: PROPERTY CHANGE: Adding CsLedgerFolder property. Its value is 'C:\Program Files\CrowdStrike\Extensibility\LEDGER'.
+MSI (s) (48:B0) [05:35:21:822]: PROPERTY CHANGE: Adding CsDataFolder property. Its value is 'C:\ProgramData\CrowdStrike'.
+MSI (s) (48:B0) [05:35:21:823]: PROPERTY CHANGE: Modifying System64Folder property. Its current value is 'C:\WINDOWS\system32\'. Its new value: 'C:\WINDOWS\system32'.
+MSI (s) (48:B0) [05:35:21:823]: PROPERTY CHANGE: Modifying SystemFolder property. Its current value is 'C:\WINDOWS\SysWOW64\'. Its new value: 'C:\WINDOWS\SysWOW64'.
+MSI (s) (48:B0) [05:35:21:823]: PROPERTY CHANGE: Modifying BACKUPFOLDER property. Its current value is 'C:\Windows\ELAMBKUP\'. Its new value: 'C:\Windows\ELAMBKUP'.
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Adding CsZtaDataFolder property. Its value is 'C:\ProgramData\CrowdStrike\ZeroTrustAssessment'.
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Adding CsQrrmDataFolder property. Its value is 'C:\ProgramData\CrowdStrike\QuarantineReleaseRemovableMedia'.
+MSI (s) (48:B0) [05:35:21:824]: Note: 1: 2205 2:  3: Patch 
+MSI (s) (48:B0) [05:35:21:824]: Note: 1: 2205 2:  3: Condition 
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Adding TARGETDIR property. Its value is 'G:\'.
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Modifying SystemFolder property. Its current value is 'C:\WINDOWS\SysWOW64'. Its new value: 'C:\WINDOWS\SysWOW64\'.
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Modifying CsDataFolder property. Its current value is 'C:\ProgramData\CrowdStrike'. Its new value: 'C:\ProgramData\CrowdStrike\'.
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Modifying CsQrrmDataFolder property. Its current value is 'C:\ProgramData\CrowdStrike\QuarantineReleaseRemovableMedia'. Its new value: 'C:\ProgramData\CrowdStrike\QuarantineReleaseRemovableMedia\'.
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Modifying CsZtaDataFolder property. Its current value is 'C:\ProgramData\CrowdStrike\ZeroTrustAssessment'. Its new value: 'C:\ProgramData\CrowdStrike\ZeroTrustAssessment\'.
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Modifying CSPROGFOLDER property. Its current value is 'C:\Program Files\CrowdStrike'. Its new value: 'C:\Program Files\CrowdStrike\'.
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Modifying CsExtensibilityBaseFolder property. Its current value is 'C:\Program Files\CrowdStrike\Extensibility'. Its new value: 'C:\Program Files\CrowdStrike\Extensibility\'.
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Modifying CsLedgerFolder property. Its current value is 'C:\Program Files\CrowdStrike\Extensibility\LEDGER'. Its new value: 'C:\Program Files\CrowdStrike\Extensibility\LEDGER\'.
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Modifying CsMemScanFolder property. Its current value is 'C:\Program Files\CrowdStrike\Extensibility\MEMSCAN'. Its new value: 'C:\Program Files\CrowdStrike\Extensibility\MEMSCAN\'.
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Modifying CsIdpFolder property. Its current value is 'C:\Program Files\CrowdStrike\Extensibility\IDP'. Its new value: 'C:\Program Files\CrowdStrike\Extensibility\IDP\'.
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Modifying CsFxmlFolder property. Its current value is 'C:\Program Files\CrowdStrike\Extensibility\FXML'. Its new value: 'C:\Program Files\CrowdStrike\Extensibility\FXML\'.
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Modifying System64Folder property. Its current value is 'C:\WINDOWS\system32'. Its new value: 'C:\WINDOWS\system32\'.
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Adding drivers property. Its value is 'C:\WINDOWS\system32\drivers\'.
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Modifying INSTALLFOLDER property. Its current value is 'C:\WINDOWS\system32\drivers\CrowdStrike'. Its new value: 'C:\WINDOWS\system32\drivers\CrowdStrike\'.
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Modifying BACKUPFOLDER property. Its current value is 'C:\Windows\ELAMBKUP'. Its new value: 'C:\Windows\ELAMBKUP\'.
+MSI (s) (48:B0) [05:35:21:824]: Target path resolution complete. Dumping Directory table...
+MSI (s) (48:B0) [05:35:21:824]: Note: target paths subject to change (via custom actions or browsing)
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: TARGETDIR	, Object: G:\
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: _CSDOWNLOADSFOLDER_0	, Object: C:\WINDOWS\system32\drivers\CrowdStrike\Downloads\
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: SystemFolder	, Object: C:\WINDOWS\SysWOW64\
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: CommonAppDataFolder	, Object: C:\ProgramData\
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: CsDataFolder	, Object: C:\ProgramData\CrowdStrike\
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: CsQrrmDataFolder	, Object: C:\ProgramData\CrowdStrike\QuarantineReleaseRemovableMedia\
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: CsZtaDataFolder	, Object: C:\ProgramData\CrowdStrike\ZeroTrustAssessment\
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: ProgramFiles64Folder	, Object: C:\Program Files\
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: CSPROGFOLDER	, Object: C:\Program Files\CrowdStrike\
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: CsExtensibilityBaseFolder	, Object: C:\Program Files\CrowdStrike\Extensibility\
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: CsLedgerFolder	, Object: C:\Program Files\CrowdStrike\Extensibility\LEDGER\
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: CsMemScanFolder	, Object: C:\Program Files\CrowdStrike\Extensibility\MEMSCAN\
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: CsIdpFolder	, Object: C:\Program Files\CrowdStrike\Extensibility\IDP\
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: CsFxmlFolder	, Object: C:\Program Files\CrowdStrike\Extensibility\FXML\
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: System64Folder	, Object: C:\WINDOWS\system32\
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: drivers	, Object: C:\WINDOWS\system32\drivers\
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: INSTALLFOLDER	, Object: C:\WINDOWS\system32\drivers\CrowdStrike\
+MSI (s) (48:B0) [05:35:21:824]: Dir (target): Key: BACKUPFOLDER	, Object: C:\Windows\ELAMBKUP\
+MSI (s) (48:B0) [05:35:21:824]: PROPERTY CHANGE: Adding INSTALLLEVEL property. Its value is '1'.
+MSI (s) (48:B0) [05:35:21:828]: WIN64DUALFOLDERS: 'C:\WINDOWS\system32\' will substitute 20 characters in 'C:\WINDOWS\SysWOW64\ScriptControl32_15806.dll' folder path. (mask argument = 1, the folder pair's iSwapAttrib member = 1).
+MSI (s) (48:B0) [05:35:21:830]: Disallowing uninstallation of component: {06034367-5363-5DCA-8EC9-1D909395C1DC} since another client exists
+MSI (s) (48:B0) [05:35:21:830]: Disallowing uninstallation of component: {06034367-5363-5DCA-8EC9-1D909395C1DC} since another client exists
+MSI (s) (48:B0) [05:35:21:830]: Disallowing uninstallation of component: {3D80F192-7A85-5945-A662-7EC6A8C25806} since another client exists
+MSI (s) (48:B0) [05:35:21:831]: Disallowing uninstallation of component: {3D80F192-7A85-5945-A662-7EC6A8C25806} since another client exists
+MSI (s) (48:B0) [05:35:21:831]: Disallowing uninstallation of component: {0D7427C5-A8C2-505F-99E0-C80B25DFD039} since another client exists
+MSI (s) (48:B0) [05:35:21:831]: Disallowing uninstallation of component: {0D7427C5-A8C2-505F-99E0-C80B25DFD039} since another client exists
+Action start 5:35:21: CostFinalize.
+MSI (s) (48:B0) [05:35:21:833]: Doing action: MigrateFeatureStates
+Action ended 5:35:21: CostFinalize. Return value 1.
+MSI (s) (48:B0) [05:35:21:834]: Skipping MigrateFeatureStates action: not run in maintenance mode
+Action start 5:35:21: MigrateFeatureStates.
+MSI (s) (48:B0) [05:35:21:834]: Doing action: InstallValidate
+Action ended 5:35:21: MigrateFeatureStates. Return value 0.
+MSI (s) (48:B0) [05:35:21:834]: PROPERTY CHANGE: Deleting MsiRestartManagerSessionKey property. Its current value is 'ddf33dde4cc0e34b977e2cb8ba0c08f1'.
+MSI (s) (48:B0) [05:35:21:834]: Note: 1: 2205 2:  3: Dialog 
+MSI (s) (48:B0) [05:35:21:834]: Feature: ProductFeature; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: InstallFolderPermissions; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: NestFolder; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: ExtensibilityFolder; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: FxmlFolder; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: IdpFolder; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: MemScanFolder; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: LedgerFolder; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CsDataFolder; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_CSPCMSYS; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_CSAgentSYS; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_ConfigSYS; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_OsfmConfigSYS; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_CSBootSYS; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_AgentReg; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_CustomerId; Installed: Local;   Request: Absent;   Action: Null
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_AgentId; Installed: Local;   Request: Absent;   Action: Null
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_FilterInstance; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CM_ServicesStart; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_PacUrl; Installed: Local;   Request: Absent;   Action: Null
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_ProxyName; Installed: Local;   Request: Absent;   Action: Null
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_ProxyPort; Installed: Local;   Request: Absent;   Action: Null
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_AppProxyPort; Installed: Local;   Request: Absent;   Action: Null
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_AppProxyName; Installed: Local;   Request: Absent;   Action: Null
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_PROXYDISABLE; Installed: Local;   Request: Absent;   Action: Null
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_VDI; Installed: Local;   Request: Absent;   Action: Null
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_NODC; Installed: Local;   Request: Absent;   Action: Null
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_NOFA; Installed: Local;   Request: Absent;   Action: Null
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_GroupingTags; Installed: Local;   Request: Absent;   Action: Null
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_ConnectOrdering; Installed: Local;   Request: Absent;   Action: Null
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_ProvBypassTag; Installed: Local;   Request: Absent;   Action: Null
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_BILLINGTYPE_METERED; Installed: Local;   Request: Absent;   Action: Null
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_BILLINGTYPE_DEFAULT; Installed: Local;   Request: Absent;   Action: Null
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_System32UmppcDLL; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_System32ScriptControlDLL; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_System32CrowdStrikeSensorScriptControlDLL; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_Syswow64ScriptControlDLL; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_CSNestEXE; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_CSFalconControllerEXE; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CSFalconContainerEXE; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CSFalconServiceMANIFEST; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_CSCOMUtilsEXE; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_CSCOMUtilsDLL; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CSPS2DLL; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CSPS4DLL; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_CsBootBackup; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CsMlDLL; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CsIdpPaDLL; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CsLedgerDLL; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_CsIntegrationDLL; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_CsIntegrationKeyName; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_CsIntegrationWow64DLL; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_CsIntegrationWow64KeyName; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CsAmsDLL; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CSSensorSettingsEXE; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_CsScanCli; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_CsScan; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: CMP_READMERTF; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: ZtaDataFolder; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: QrrmDataFolder; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Component: __InstallFolderPermissions65; Installed: Null;   Request: Absent;   Action: Absent
+MSI (s) (48:B0) [05:35:21:834]: Note: 1: 2205 2:  3: BindImage 
+MSI (s) (48:B0) [05:35:21:834]: Note: 1: 2205 2:  3: ProgId 
+MSI (s) (48:B0) [05:35:21:834]: Note: 1: 2205 2:  3: PublishComponent 
+MSI (s) (48:B0) [05:35:21:834]: Note: 1: 2205 2:  3: Extension 
+MSI (s) (48:B0) [05:35:21:834]: Note: 1: 2205 2:  3: Font 
+MSI (s) (48:B0) [05:35:21:834]: Note: 1: 2205 2:  3: Shortcut 
+MSI (s) (48:B0) [05:35:21:834]: Note: 1: 2205 2:  3: Class 
+MSI (s) (48:B0) [05:35:21:834]: Note: 1: 2205 2:  3: Icon 
+MSI (s) (48:B0) [05:35:21:834]: Note: 1: 2205 2:  3: TypeLib 
+Action start 5:35:21: InstallValidate.
+MSI (s) (48:B0) [05:35:21:836]: Note: 1: 2205 2:  3: _RemoveFilePath 
+MSI (s) (48:B0) [05:35:21:852]: PROPERTY CHANGE: Modifying CostingComplete property. Its current value is '0'. Its new value: '1'.
+MSI (s) (48:B0) [05:35:21:852]: Note: 1: 2205 2:  3: BindImage 
+MSI (s) (48:B0) [05:35:21:852]: Note: 1: 2205 2:  3: ProgId 
+MSI (s) (48:B0) [05:35:21:852]: Note: 1: 2205 2:  3: PublishComponent 
+MSI (s) (48:B0) [05:35:21:852]: Note: 1: 2205 2:  3: Extension 
+MSI (s) (48:B0) [05:35:21:852]: Note: 1: 2205 2:  3: Font 
+MSI (s) (48:B0) [05:35:21:852]: Note: 1: 2205 2:  3: Shortcut 
+MSI (s) (48:B0) [05:35:21:852]: Note: 1: 2205 2:  3: Class 
+MSI (s) (48:B0) [05:35:21:852]: Note: 1: 2205 2:  3: Icon 
+MSI (s) (48:B0) [05:35:21:852]: Note: 1: 2205 2:  3: TypeLib 
+MSI (s) (48:B0) [05:35:21:852]: Note: 1: 2727 2:  
+MSI (s) (48:B0) [05:35:21:888]: RESTART MANAGER: Did detect that a critical application holds file[s] in use, so a reboot will be necessary.
+MSI (s) (48:B0) [05:35:21:888]: Note: 1: 2727 2:  
+MSI (s) (48:B0) [05:35:21:889]: Skipping action: CsUtilStopSensorForUpgrade (condition is false)
+MSI (s) (48:B0) [05:35:21:889]: Doing action: InstallInitialize
+Action ended 5:35:21: InstallValidate. Return value 1.
+MSI (s) (48:B0) [05:35:21:889]: Machine policy value 'AlwaysInstallElevated' is 0
+MSI (s) (48:B0) [05:35:21:889]: User policy value 'AlwaysInstallElevated' is 0
+MSI (s) (48:B0) [05:35:21:889]: BeginTransaction: Locking Server
+MSI (s) (48:B0) [05:35:21:889]: Note: 1: 2203 2: C:\WINDOWS\Installer\inprogressinstallinfo.ipi 3: -2147287038 
+MSI (s) (48:B0) [05:35:21:889]: SRSetRestorePoint skipped for this transaction.
+MSI (s) (48:B0) [05:35:21:889]: Note: 1: 2203 2: C:\WINDOWS\Installer\inprogressinstallinfo.ipi 3: -2147287038 
+MSI (s) (48:B0) [05:35:21:889]: Server not locked: locking for product {D717B707-5B4F-4208-92E3-77FA8362A610}
+Action start 5:35:21: InstallInitialize.
+MSI (s) (48:B0) [05:35:21:898]: PROPERTY CHANGE: Deleting ProductToBeRegistered property. Its current value is '1'.
+MSI (s) (48:B0) [05:35:21:899]: Note: 1: 2205 2:  3: Icon 
+MSI (s) (48:B0) [05:35:21:899]: Note: 1: 2228 2:  3: Icon 4: SELECT `Name`, `Data` FROM `Icon` 
+MSI (s) (48:B0) [05:35:21:899]: Doing action: RemoveExistingProducts
+Action ended 5:35:21: InstallInitialize. Return value 1.
+MSI (s) (48:B0) [05:35:21:900]: Skipping RemoveExistingProducts action: current configuration is maintenance mode or an uninstall
+Action start 5:35:21: RemoveExistingProducts.
+MSI (s) (48:B0) [05:35:21:900]: Skipping action: DeleteCsKeyForRollback (condition is false)
+MSI (s) (48:B0) [05:35:21:900]: Skipping action: SetRemovingForUpgrade (condition is false)
+MSI (s) (48:B0) [05:35:21:900]: Doing action: ProcessComponents
+Action ended 5:35:21: RemoveExistingProducts. Return value 0.
+Action start 5:35:21: ProcessComponents.
+MSI (s) (48:B0) [05:35:21:922]: Doing action: UnpublishFeatures
+Action ended 5:35:21: ProcessComponents. Return value 1.
+Action start 5:35:21: UnpublishFeatures.
+MSI (s) (48:B0) [05:35:21:923]: Doing action: CsUtilRestartSensorForRollback
+Action ended 5:35:21: UnpublishFeatures. Return value 1.
+Action start 5:35:21: CsUtilRestartSensorForRollback.
+MSI (s) (48:B0) [05:35:21:925]: Skipping action: CsUtilSendUninstallAndStopSensor (condition is false)
+MSI (s) (48:B0) [05:35:21:925]: Doing action: CsUtilStopSensor
+Action ended 5:35:21: CsUtilRestartSensorForRollback. Return value 1.
+MSI (s) (48:4C) [05:35:21:927]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSIF449.tmp, Entrypoint: StopSensor
+Action start 5:35:21: CsUtilStopSensor.
+StopSensor:  Initialized.
+StopSensor:  Running in immediate context
+StopSensor:  PW was empty
+
+StopSensor:  No maintenance token found: 13
+
+MSI (s) (48:B0) [05:35:21:938]: Doing action: FgwepSchedProtectedStopServicesRollback64
+Action ended 5:35:21: CsUtilStopSensor. Return value 1.
+MSI (s) (48:64) [05:35:21:940]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSIF45A.tmp, Entrypoint: SchedProtectedServicesRollback
+MSI (s) (48!B8) [05:35:21:945]: PROPERTY CHANGE: Adding FgwepRollbackProtectedServices64 property. Its value is 'CSFalconServiceC:\WINDOWS\system32\drivers\CrowdStrike\CSBoot.sys'.
+Action start 5:35:21: FgwepSchedProtectedStopServicesRollback64.
+MSI (s) (48!B8) [05:35:21:946]: Doing action: FgwepRollbackProtectedServices64
+Action start 5:35:21: FgwepRollbackProtectedServices64.
+Action ended 5:35:21: FgwepRollbackProtectedServices64. Return value 1.
+MSI (s) (48:B0) [05:35:21:948]: Doing action: SetRbsActionNameUnprotectServiceCSFalconService
+Action ended 5:35:21: FgwepSchedProtectedStopServicesRollback64. Return value 1.
+MSI (s) (48:B0) [05:35:21:948]: PROPERTY CHANGE: Adding RbsActionName property. Its value is 'UnprotectServiceCSFalconServiceExec'.
+Action start 5:35:21: SetRbsActionNameUnprotectServiceCSFalconService.
+MSI (s) (48:B0) [05:35:21:948]: Doing action: SetRbsBinaryNameUnprotectServiceCSFalconService
+Action ended 5:35:21: SetRbsActionNameUnprotectServiceCSFalconService. Return value 1.
+MSI (s) (48:B0) [05:35:21:949]: PROPERTY CHANGE: Adding RbsBinaryName property. Its value is 'CSPplUninstallCA'.
+Action start 5:35:21: SetRbsBinaryNameUnprotectServiceCSFalconService.
+MSI (s) (48:B0) [05:35:21:949]: Doing action: UnprotectServiceCSFalconService
+Action ended 5:35:21: SetRbsBinaryNameUnprotectServiceCSFalconService. Return value 1.
+MSI (s) (48:20) [05:35:21:951]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSIF46B.tmp, Entrypoint: RunBinarySilentlySched
+MSI (s) (48!48) [05:35:21:958]: PROPERTY CHANGE: Deleting RbsActionName property. Its current value is 'UnprotectServiceCSFalconServiceExec'.
+MSI (s) (48!48) [05:35:21:958]: PROPERTY CHANGE: Deleting RbsBinaryName property. Its current value is 'CSPplUninstallCA'.
+MSI (s) (48!48) [05:35:21:966]: PROPERTY CHANGE: Adding UnprotectServiceCSFalconServiceExec property. Its value is '**********'.
+MSI (s) (48!48) [05:35:21:967]: Doing action: UnprotectServiceCSFalconServiceExec
+Action start 5:35:21: UnprotectServiceCSFalconService.
+Action start 5:35:21: UnprotectServiceCSFalconServiceExec.
+Action ended 5:35:21: UnprotectServiceCSFalconServiceExec. Return value 1.
+MSI (s) (48:B0) [05:35:21:973]: Doing action: StopServices
+Action ended 5:35:21: UnprotectServiceCSFalconService. Return value 1.
+Action start 5:35:21: StopServices.
+MSI (s) (48:B0) [05:35:21:975]: Doing action: RemoveRegistryValues
+Action ended 5:35:21: StopServices. Return value 1.
+Action start 5:35:21: RemoveRegistryValues.
+MSI (s) (48:B0) [05:35:21:987]: Doing action: ConfigureEventManifestUnregister
+Action ended 5:35:21: RemoveRegistryValues. Return value 1.
+MSI (s) (48:24) [05:35:21:989]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSIF48B.tmp, Entrypoint: ConfigureEventManifestUnregister
+MSI (s) (48!CC) [05:35:21:998]: PROPERTY CHANGE: Adding RollbackUnregisterEventManifest property. Its value is '"wevtutil.exe" im "C:\Program Files\CrowdStrike\CSFalconService.man"'.
+Action start 5:35:21: ConfigureEventManifestUnregister.
+MSI (s) (48!CC) [05:35:21:998]: Doing action: RollbackUnregisterEventManifest
+Action start 5:35:21: RollbackUnregisterEventManifest.
+MSI (s) (48!CC) [05:35:22:000]: PROPERTY CHANGE: Adding UnregisterEventManifest property. Its value is '"wevtutil.exe" um "C:\Program Files\CrowdStrike\CSFalconService.man"'.
+Action ended 5:35:22: RollbackUnregisterEventManifest. Return value 1.
+MSI (s) (48!CC) [05:35:22:000]: Doing action: UnregisterEventManifest
+Action start 5:35:22: UnregisterEventManifest.
+Action ended 5:35:22: UnregisterEventManifest. Return value 1.
+MSI (s) (48:B0) [05:35:22:003]: Skipping action: CsUtilRemoveNES (condition is false)
+MSI (s) (48:B0) [05:35:22:003]: Doing action: FgwepDriversUninstall64
+Action ended 5:35:22: ConfigureEventManifestUnregister. Return value 1.
+MSI (s) (48:BC) [05:35:22:005]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSIF49B.tmp, Entrypoint: DriversUninstall
+Action start 5:35:22: FgwepDriversUninstall64.
+DriversUninstall:  Scheduling removal of driver: CSAgent with name: CSAgent
+MSI (s) (48!78) [05:35:22:012]: PROPERTY CHANGE: Adding FgwepDriversRollback64 property. Its value is 'DriversUninstall2'.
+DriversUninstall:  Scheduling removal of driver: CSBoot with name: CSBoot
+MSI (s) (48!78) [05:35:22:012]: Doing action: FgwepDriversRollback64
+Action start 5:35:22: FgwepDriversRollback64.
+MSI (s) (48!78) [05:35:22:014]: PROPERTY CHANGE: Adding FgwepDriversExecute64 property. Its value is 'DriversUninstall22CSAgentCSAgent2CSBootCSBoot'.
+Action ended 5:35:22: FgwepDriversRollback64. Return value 1.
+MSI (s) (48!78) [05:35:22:014]: Doing action: FgwepDriversExecute64
+Action start 5:35:22: FgwepDriversExecute64.
+Action ended 5:35:22: FgwepDriversExecute64. Return value 1.
+MSI (s) (48:B0) [05:35:22:017]: Doing action: FgwepSchedProtectedServicesRollback64
+Action ended 5:35:22: FgwepDriversUninstall64. Return value 1.
+MSI (s) (48:74) [05:35:22:018]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSIF4AC.tmp, Entrypoint: SchedProtectedServicesRollback
+Action start 5:35:22: FgwepSchedProtectedServicesRollback64.
+MSI (s) (48!04) [05:35:22:024]: Doing action: FgwepRollbackProtectedServices64
+Action start 5:35:22: FgwepRollbackProtectedServices64.
+Action ended 5:35:22: FgwepRollbackProtectedServices64. Return value 1.
+MSI (s) (48:B0) [05:35:22:026]: Doing action: DeleteServices
+Action ended 5:35:22: FgwepSchedProtectedServicesRollback64. Return value 1.
+Action start 5:35:22: DeleteServices.
+MSI (s) (48:B0) [05:35:22:027]: Doing action: SelfUnregModules
+Action ended 5:35:22: DeleteServices. Return value 1.
+Action start 5:35:22: SelfUnregModules.
+MSI (s) (48:B0) [05:35:22:029]: Doing action: RemoveIniValues
+Action ended 5:35:22: SelfUnregModules. Return value 1.
+Action start 5:35:22: RemoveIniValues.
+MSI (s) (48:B0) [05:35:22:031]: Doing action: RemoveFiles
+Action ended 5:35:22: RemoveIniValues. Return value 1.
+Action start 5:35:22: RemoveFiles.
+MSI (s) (48:B0) [05:35:22:039]: Counted 1 foreign folders to be removed.
+MSI (s) (48:B0) [05:35:22:039]: Removing foreign folder: C:\WINDOWS\system32\drivers\CrowdStrike\Downloads\
+MSI (s) (48:B0) [05:35:22:039]: Doing action: RemoveFolders
+Action ended 5:35:22: RemoveFiles. Return value 1.
+Action start 5:35:22: RemoveFolders.
+MSI (s) (48:B0) [05:35:22:042]: Doing action: CreateFolders
+Action ended 5:35:22: RemoveFolders. Return value 1.
+Action start 5:35:22: CreateFolders.
+MSI (s) (48:B0) [05:35:22:042]: Doing action: FgwepDriversInstall64
+Action ended 5:35:22: CreateFolders. Return value 1.
+MSI (s) (48:08) [05:35:22:044]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSIF4CC.tmp, Entrypoint: DriversInstall
+Action start 5:35:22: FgwepDriversInstall64.
+MSI (s) (48:B0) [05:35:22:050]: Doing action: WriteRegistryValues
+Action ended 5:35:22: FgwepDriversInstall64. Return value 1.
+Action start 5:35:22: WriteRegistryValues.
+MSI (s) (48:B0) [05:35:22:050]: Skipping action: SetWriteProvisionToken (condition is false)
+MSI (s) (48:B0) [05:35:22:050]: Skipping action: WriteProvisionToken (condition is false)
+MSI (s) (48:B0) [05:35:22:050]: Doing action: InstallFiles
+Action ended 5:35:22: WriteRegistryValues. Return value 1.
+MSI (s) (48:B0) [05:35:22:051]: Note: 1: 2205 2:  3: Patch 
+MSI (s) (48:B0) [05:35:22:051]: Note: 1: 2228 2:  3: Patch 4: SELECT `Patch`.`File_`, `Patch`.`Header`, `Patch`.`Attributes`, `Patch`.`Sequence`, `Patch`.`StreamRef_` FROM `Patch` WHERE `Patch`.`File_` = ? AND `Patch`.`#_MsiActive`=? ORDER BY `Patch`.`Sequence` 
+MSI (s) (48:B0) [05:35:22:051]: Note: 1: 2205 2:  3: MsiSFCBypass 
+MSI (s) (48:B0) [05:35:22:051]: Note: 1: 2228 2:  3: MsiSFCBypass 4: SELECT `File_` FROM `MsiSFCBypass` WHERE `File_` = ? 
+MSI (s) (48:B0) [05:35:22:051]: Note: 1: 2205 2:  3: MsiPatchHeaders 
+MSI (s) (48:B0) [05:35:22:051]: Note: 1: 2228 2:  3: MsiPatchHeaders 4: SELECT `Header` FROM `MsiPatchHeaders` WHERE `StreamRef` = ? 
+Action start 5:35:22: InstallFiles.
+MSI (s) (48:B0) [05:35:22:051]: Doing action: DuplicateFiles
+Action ended 5:35:22: InstallFiles. Return value 1.
+Action start 5:35:22: DuplicateFiles.
+MSI (s) (48:B0) [05:35:22:052]: Doing action: SchedXmlFile
+Action ended 5:35:22: DuplicateFiles. Return value 1.
+MSI (s) (48:5C) [05:35:22:054]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSIF4DD.tmp, Entrypoint: SchedXmlFile
+MSI (s) (48!48) [05:35:22:062]: PROPERTY CHANGE: Adding ExecXmlFileRollback property. Its value is '**********'.
+Action start 5:35:22: SchedXmlFile.
+MSI (s) (48!48) [05:35:22:062]: Doing action: ExecXmlFileRollback
+Action start 5:35:22: ExecXmlFileRollback.
+MSI (s) (48!48) [05:35:22:064]: PROPERTY CHANGE: Adding ExecXmlFile property. Its value is '**********'.
+Action ended 5:35:22: ExecXmlFileRollback. Return value 1.
+MSI (s) (48!48) [05:35:22:064]: Doing action: ExecXmlFile
+Action start 5:35:22: ExecXmlFile.
+Action ended 5:35:22: ExecXmlFile. Return value 1.
+MSI (s) (48:B0) [05:35:22:067]: Doing action: ConfigureEventManifestRegister
+Action ended 5:35:22: SchedXmlFile. Return value 1.
+MSI (s) (48:60) [05:35:22:069]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSIF4EE.tmp, Entrypoint: ConfigureEventManifestRegister
+Action start 5:35:22: ConfigureEventManifestRegister.
+MSI (s) (48:B0) [05:35:22:079]: Doing action: WriteIniValues
+Action ended 5:35:22: ConfigureEventManifestRegister. Return value 1.
+Action start 5:35:22: WriteIniValues.
+MSI (s) (48:B0) [05:35:22:079]: Doing action: SelfRegModules
+Action ended 5:35:22: WriteIniValues. Return value 1.
+Action start 5:35:22: SelfRegModules.
+MSI (s) (48:B0) [05:35:22:080]: Doing action: InstallServices
+Action ended 5:35:22: SelfRegModules. Return value 1.
+Action start 5:35:22: InstallServices.
+MSI (s) (48:B0) [05:35:22:080]: Skipping action: SchedServiceConfig (condition is false)
+MSI (s) (48:B0) [05:35:22:080]: Doing action: SetRbsActionNameUnprotectInstallServicesRollbackCSFalconService
+Action ended 5:35:22: InstallServices. Return value 1.
+MSI (s) (48:B0) [05:35:22:081]: PROPERTY CHANGE: Adding RbsActionName property. Its value is 'UnprotectInstallServicesRollbackCSFalconServiceExec'.
+Action start 5:35:22: SetRbsActionNameUnprotectInstallServicesRollbackCSFalconService.
+MSI (s) (48:B0) [05:35:22:081]: Doing action: SetRbsBinaryNameUnprotectInstallServicesRollbackCSFalconService
+Action ended 5:35:22: SetRbsActionNameUnprotectInstallServicesRollbackCSFalconService. Return value 1.
+MSI (s) (48:B0) [05:35:22:081]: PROPERTY CHANGE: Adding RbsBinaryName property. Its value is 'CSPplUninstallCA'.
+Action start 5:35:22: SetRbsBinaryNameUnprotectInstallServicesRollbackCSFalconService.
+MSI (s) (48:B0) [05:35:22:081]: Doing action: UnprotectInstallServicesRollbackCSFalconService
+Action ended 5:35:22: SetRbsBinaryNameUnprotectInstallServicesRollbackCSFalconService. Return value 1.
+MSI (s) (48:04) [05:35:22:083]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSIF4EF.tmp, Entrypoint: RunBinarySilentlySched
+MSI (s) (48!E0) [05:35:22:092]: PROPERTY CHANGE: Deleting RbsActionName property. Its current value is 'UnprotectInstallServicesRollbackCSFalconServiceExec'.
+MSI (s) (48!E0) [05:35:22:092]: PROPERTY CHANGE: Deleting RbsBinaryName property. Its current value is 'CSPplUninstallCA'.
+MSI (s) (48!E0) [05:35:22:101]: PROPERTY CHANGE: Adding UnprotectInstallServicesRollbackCSFalconServiceExec property. Its value is '**********'.
+MSI (s) (48!E0) [05:35:22:101]: Doing action: UnprotectInstallServicesRollbackCSFalconServiceExec
+Action start 5:35:22: UnprotectInstallServicesRollbackCSFalconService.
+Action start 5:35:22: UnprotectInstallServicesRollbackCSFalconServiceExec.
+Action ended 5:35:22: UnprotectInstallServicesRollbackCSFalconServiceExec. Return value 1.
+MSI (s) (48:B0) [05:35:22:109]: Doing action: MsiConfigureServices
+Action ended 5:35:22: UnprotectInstallServicesRollbackCSFalconService. Return value 1.
+MSI (s) (48:B0) [05:35:22:109]: Note: 1: 2205 2:  3: MsiServiceConfig 
+MSI (s) (48:B0) [05:35:22:109]: Note: 1: 2228 2:  3: MsiServiceConfig 4: SELECT `Name`, `Event`, `ConfigType`, `Argument`, `Action` FROM `MsiServiceConfig`, `Component` WHERE `Component_` = `Component` AND (`Action` = 0 OR `Action` = 1 OR `Action` = 3) 
+MSI (s) (48:B0) [05:35:22:109]: Note: 1: 2205 2:  3: MsiServiceConfigFailureActions 
+MSI (s) (48:B0) [05:35:22:109]: Note: 1: 2228 2:  3: MsiServiceConfigFailureActions 4: SELECT `Name`, `Event`, `ResetPeriod`, `RebootMessage`,`Command`,  `Actions`, `DelayActions`, `Action` FROM `MsiServiceConfigFailureActions`, `Component` WHERE `Component_` = `Component` AND (`Action` = 0 OR `Action` = 1 OR `Action` = 3) 
+Action start 5:35:22: MsiConfigureServices.
+MSI (s) (48:B0) [05:35:22:109]: Doing action: FgwepSchedProtectedServices64
+Action ended 5:35:22: MsiConfigureServices. Return value 1.
+MSI (s) (48:80) [05:35:22:111]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSIF50F.tmp, Entrypoint: SchedProtectedServices
+Action start 5:35:22: FgwepSchedProtectedServices64.
+MSI (s) (48:B0) [05:35:22:117]: Doing action: CsUtilFlushSystemVolume
+Action ended 5:35:22: FgwepSchedProtectedServices64. Return value 1.
+Action start 5:35:22: CsUtilFlushSystemVolume.
+MSI (s) (48:B0) [05:35:22:120]: Doing action: CsUtilStopSensorForRollback.SetProperty
+Action ended 5:35:22: CsUtilFlushSystemVolume. Return value 1.
+Action start 5:35:22: CsUtilStopSensorForRollback.SetProperty.
+MSI (s) (48:B0) [05:35:22:120]: Doing action: CsUtilStopSensorForRollback
+Action ended 5:35:22: CsUtilStopSensorForRollback.SetProperty. Return value 1.
+Action start 5:35:22: CsUtilStopSensorForRollback.
+MSI (s) (48:B0) [05:35:22:123]: Doing action: CsUtilUninstallSensorForRollback.SetProperty
+Action ended 5:35:22: CsUtilStopSensorForRollback. Return value 1.
+Action start 5:35:22: CsUtilUninstallSensorForRollback.SetProperty.
+MSI (s) (48:B0) [05:35:22:123]: Skipping action: CsUtilUninstallSensorForRollback (condition is false)
+MSI (s) (48:B0) [05:35:22:123]: Doing action: StartServices
+Action ended 5:35:22: CsUtilUninstallSensorForRollback.SetProperty. Return value 1.
+Action start 5:35:22: StartServices.
+MSI (s) (48:B0) [05:35:22:124]: Doing action: CsUtilStopSensorForRollbackAfterStartServices.SetProperty
+Action ended 5:35:22: StartServices. Return value 1.
+Action start 5:35:22: CsUtilStopSensorForRollbackAfterStartServices.SetProperty.
+MSI (s) (48:B0) [05:35:22:124]: Doing action: CsUtilStopSensorForRollbackAfterStartServices
+Action ended 5:35:22: CsUtilStopSensorForRollbackAfterStartServices.SetProperty. Return value 1.
+Action start 5:35:22: CsUtilStopSensorForRollbackAfterStartServices.
+MSI (s) (48:B0) [05:35:22:126]: Doing action: CsUtilUninstallSensorForRollbackAfterStartServices.SetProperty
+Action ended 5:35:22: CsUtilStopSensorForRollbackAfterStartServices. Return value 1.
+Action start 5:35:22: CsUtilUninstallSensorForRollbackAfterStartServices.SetProperty.
+MSI (s) (48:B0) [05:35:22:127]: Skipping action: CsUtilUninstallSensorForRollbackAfterStartServices (condition is false)
+MSI (s) (48:B0) [05:35:22:127]: Doing action: SetRbsActionNameUnprotectStartServicesRollbackCSFalconService
+Action ended 5:35:22: CsUtilUninstallSensorForRollbackAfterStartServices.SetProperty. Return value 1.
+MSI (s) (48:B0) [05:35:22:127]: PROPERTY CHANGE: Adding RbsActionName property. Its value is 'UnprotectStartServicesRollbackCSFalconServiceExec'.
+Action start 5:35:22: SetRbsActionNameUnprotectStartServicesRollbackCSFalconService.
+MSI (s) (48:B0) [05:35:22:127]: Doing action: SetRbsBinaryNameUnprotectStartServicesRollbackCSFalconService
+Action ended 5:35:22: SetRbsActionNameUnprotectStartServicesRollbackCSFalconService. Return value 1.
+MSI (s) (48:B0) [05:35:22:128]: PROPERTY CHANGE: Adding RbsBinaryName property. Its value is 'CSPplUninstallCA'.
+Action start 5:35:22: SetRbsBinaryNameUnprotectStartServicesRollbackCSFalconService.
+MSI (s) (48:B0) [05:35:22:128]: Doing action: UnprotectStartServicesRollbackCSFalconService
+Action ended 5:35:22: SetRbsBinaryNameUnprotectStartServicesRollbackCSFalconService. Return value 1.
+MSI (s) (48:44) [05:35:22:130]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSIF51F.tmp, Entrypoint: RunBinarySilentlySched
+MSI (s) (48:5C) [05:35:22:146]: PROPERTY CHANGE: Deleting RbsActionName property. Its current value is 'UnprotectStartServicesRollbackCSFalconServiceExec'.
+MSI (s) (48:5C) [05:35:22:146]: PROPERTY CHANGE: Deleting RbsBinaryName property. Its current value is 'CSPplUninstallCA'.
+MSI (s) (48:5C) [05:35:22:155]: PROPERTY CHANGE: Adding UnprotectStartServicesRollbackCSFalconServiceExec property. Its value is '**********'.
+MSI (s) (48:5C) [05:35:22:155]: Doing action: UnprotectStartServicesRollbackCSFalconServiceExec
+Action start 5:35:22: UnprotectStartServicesRollbackCSFalconService.
+Action start 5:35:22: UnprotectStartServicesRollbackCSFalconServiceExec.
+Action ended 5:35:22: UnprotectStartServicesRollbackCSFalconServiceExec. Return value 1.
+MSI (s) (48:B0) [05:35:22:163]: Doing action: RegisterUser
+Action ended 5:35:22: UnprotectStartServicesRollbackCSFalconService. Return value 1.
+Action start 5:35:22: RegisterUser.
+MSI (s) (48:B0) [05:35:22:163]: Doing action: RegisterProduct
+Action ended 5:35:22: RegisterUser. Return value 0.
+Action start 5:35:22: RegisterProduct.
+MSI (s) (48:B0) [05:35:22:164]: Doing action: PublishFeatures
+Action ended 5:35:22: RegisterProduct. Return value 1.
+Action start 5:35:22: PublishFeatures.
+MSI (s) (48:B0) [05:35:22:164]: Doing action: PublishProduct
+Action ended 5:35:22: PublishFeatures. Return value 1.
+Action start 5:35:22: PublishProduct.
+MSI (s) (48:B0) [05:35:22:166]: Skipping action: DeleteCsKey (condition is false)
+MSI (s) (48:B0) [05:35:22:166]: Doing action: SetFgwepDriversCommit64CustomActionData
+Action ended 5:35:22: PublishProduct. Return value 1.
+MSI (s) (48:B0) [05:35:22:166]: PROPERTY CHANGE: Adding FgwepDriversCommit64 property. Its value is '{D717B707-5B4F-4208-92E3-77FA8362A610}'.
+Action start 5:35:22: SetFgwepDriversCommit64CustomActionData.
+MSI (s) (48:B0) [05:35:22:166]: Doing action: FgwepDriversCommit64
+Action ended 5:35:22: SetFgwepDriversCommit64CustomActionData. Return value 1.
+Action start 5:35:22: FgwepDriversCommit64.
+MSI (s) (48:B0) [05:35:22:168]: Doing action: InstallFinalize
+Action ended 5:35:22: FgwepDriversCommit64. Return value 1.
+MSI (s) (48:B0) [05:35:22:168]: Running Script: C:\WINDOWS\Installer\MSIF439.tmp
+MSI (s) (48:B0) [05:35:22:168]: PROPERTY CHANGE: Adding UpdateStarted property. Its value is '1'.
+MSI (s) (48:B0) [05:35:22:170]: Note: 1: 2265 2:  3: -2147287035 
+MSI (s) (48:B0) [05:35:22:171]: Machine policy value 'DisableRollback' is 0
+MSI (s) (48:B0) [05:35:22:171]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:22:172]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:22:172]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\Rollback\Scripts 3: 2 
+MSI (s) (48:B0) [05:35:22:173]: Executing op: Header(Signature=1397708873,Version=500,Timestamp=1428696171,LangId=1033,Platform=589824,ScriptType=1,ScriptMajorVersion=21,ScriptMinorVersion=4,ScriptAttributes=1)
+Action start 5:35:22: InstallFinalize.
+MSI (s) (48:B0) [05:35:22:173]: Executing op: ProductInfo(ProductKey={D717B707-5B4F-4208-92E3-77FA8362A610},ProductName=CrowdStrike Sensor Platform,PackageName=CsAgent.msi,Language=1033,Version=103562686,Assignment=1,ObsoleteArg=0,,,PackageCode={25CEB0E0-A22C-4EA5-8704-E133EE757A09},,,InstanceType=0,LUASetting=0,RemoteURTInstalls=0,ProductDeploymentFlags=3)
+MSI (s) (48:B0) [05:35:22:173]: Executing op: DialogInfo(Type=0,Argument=1033)
+MSI (s) (48:B0) [05:35:22:173]: Executing op: DialogInfo(Type=1,Argument=CrowdStrike Sensor Platform)
+MSI (s) (48:B0) [05:35:22:173]: Executing op: RollbackInfo(,RollbackAction=Rollback,RollbackDescription=Rolling back action:,RollbackTemplate=[1],CleanupAction=RollbackCleanup,CleanupDescription=Removing backup files,CleanupTemplate=File: [1])
+MSI (s) (48:B0) [05:35:22:173]: Executing op: SetBaseline(Baseline=0,)
+MSI (s) (48:B0) [05:35:22:173]: Executing op: SetBaseline(Baseline=1,)
+MSI (s) (48:B0) [05:35:22:173]: Executing op: ActionStart(Name=InstallInitialize,,)
+MSI (s) (48:B0) [05:35:22:174]: Executing op: ProductUnregister(UpgradeCode={6C191C3E-0B90-4580-8E3F-9A49FC86E37A})
+MSI (s) (48:B0) [05:35:22:174]: Note: 1: 1402 2: UNKNOWN\Products\707B717DF4B58024293E77AF38266A01\Transforms 3: 2 
+MSI (s) (48:B0) [05:35:22:174]: Note: 1: 1402 2: UNKNOWN\Products\707B717DF4B58024293E77AF38266A01\Transforms 3: 2 
+MSI (s) (48:B0) [05:35:22:174]: Scheduling file 'C:\WINDOWS\Installer\6fdb2f5.msi' for deletion during post-install cleanup (not post-reboot).
+MSI (s) (48:B0) [05:35:22:183]: Note: 1: 1402 2: UNKNOWN\Products\707B717DF4B58024293E77AF38266A01\Usage 3: 2 
+MSI (s) (48:B0) [05:35:22:183]: Executing op: ProductCPDisplayInfoUnregister()
+MSI (s) (48:B0) [05:35:22:184]: Executing op: ProductUnpublish(PackageKey={25CEB0E0-A22C-4EA5-8704-E133EE757A09})
+MSI (s) (48:B0) [05:35:22:185]: Executing op: UpgradeCodeUnpublish(UpgradeCode={6C191C3E-0B90-4580-8E3F-9A49FC86E37A})
+MSI (s) (48:B0) [05:35:22:185]: Executing op: ProductUnpublishClient(,,)
+MSI (s) (48:B0) [05:35:22:186]: Note: 1: 1402 2: UNKNOWN\Installer\Products\707B717DF4B58024293E77AF38266A01 3: 2 
+MSI (s) (48:B0) [05:35:22:186]: Executing op: SourceListUnpublish(,)
+MSI (s) (48:B0) [05:35:22:186]: Note: 1: 1402 2: UNKNOWN\Installer\Products\707B717DF4B58024293E77AF38266A01\SourceList 3: 2 
+MSI (s) (48:B0) [05:35:22:186]: Executing op: ActionStart(Name=ProcessComponents,Description=Updating component registration,)
+MSI (s) (48:B0) [05:35:22:186]: Executing op: ProgressTotal(Total=59,Type=1,ByteEquivalent=24000)
+MSI (s) (48:B0) [05:35:22:186]: Executing op: UnregisterSharedComponentProvider(Component={F5BC8C33-8B18-4FE8-8D5D-555B766161FD},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:186]: Executing op: ComponentUnregister(ComponentId={F5BC8C33-8B18-4FE8-8D5D-555B766161FD},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:187]: Executing op: UnregisterSharedComponentProvider(Component={FFAD2E6C-367B-4DCB-B8EB-97114C9D36ED},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:187]: Executing op: ComponentUnregister(ComponentId={FFAD2E6C-367B-4DCB-B8EB-97114C9D36ED},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:187]: Executing op: UnregisterSharedComponentProvider(Component={F7706B52-3342-4BFE-9974-23441E4B2BA7},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:187]: Executing op: ComponentUnregister(ComponentId={F7706B52-3342-4BFE-9974-23441E4B2BA7},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:188]: Executing op: UnregisterSharedComponentProvider(Component={E644420C-9EFE-42E4-A0BE-8F43E2E2CAB7},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:188]: Executing op: ComponentUnregister(ComponentId={E644420C-9EFE-42E4-A0BE-8F43E2E2CAB7},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:189]: Executing op: UnregisterSharedComponentProvider(Component={555551E3-870F-4879-8C95-8A2D3EABD17E},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:189]: Executing op: ComponentUnregister(ComponentId={555551E3-870F-4879-8C95-8A2D3EABD17E},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:189]: Executing op: UnregisterSharedComponentProvider(Component={6A17D533-19E9-4350-AF83-326F5052DE4F},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:189]: Executing op: ComponentUnregister(ComponentId={6A17D533-19E9-4350-AF83-326F5052DE4F},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:190]: Executing op: UnregisterSharedComponentProvider(Component={D0FCDEBC-6C79-4603-87AB-B796E254A088},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:190]: Executing op: ComponentUnregister(ComponentId={D0FCDEBC-6C79-4603-87AB-B796E254A088},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:190]: Executing op: UnregisterSharedComponentProvider(Component={7CF739F0-AF00-4AE6-ABF1-9E344ECF5237},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:191]: Executing op: ComponentUnregister(ComponentId={7CF739F0-AF00-4AE6-ABF1-9E344ECF5237},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:191]: Executing op: UnregisterSharedComponentProvider(Component={495C0D6D-2510-5694-8966-8C9D3A6DD101},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:191]: Executing op: ComponentUnregister(ComponentId={495C0D6D-2510-5694-8966-8C9D3A6DD101},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:192]: Executing op: UnregisterSharedComponentProvider(Component={D63A75C6-6F39-5595-8823-CC3CB6442829},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:192]: Executing op: ComponentUnregister(ComponentId={D63A75C6-6F39-5595-8823-CC3CB6442829},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:192]: Executing op: UnregisterSharedComponentProvider(Component={D953CCFF-1D5A-5058-BC70-2AC89465B6F4},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:192]: Executing op: ComponentUnregister(ComponentId={D953CCFF-1D5A-5058-BC70-2AC89465B6F4},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:193]: Executing op: UnregisterSharedComponentProvider(Component={38AC4D6D-F12F-5ED0-B51C-91CF272E68D4},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:193]: Executing op: ComponentUnregister(ComponentId={38AC4D6D-F12F-5ED0-B51C-91CF272E68D4},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:194]: Executing op: UnregisterSharedComponentProvider(Component={1EDD3A4C-FD86-5F05-885B-7DCFC1034746},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:194]: Executing op: ComponentUnregister(ComponentId={1EDD3A4C-FD86-5F05-885B-7DCFC1034746},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:194]: Executing op: UnregisterSharedComponentProvider(Component={A5C92B39-6517-4259-9941-6D3416340D7E},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:194]: Executing op: ComponentUnregister(ComponentId={A5C92B39-6517-4259-9941-6D3416340D7E},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:195]: Executing op: UnregisterSharedComponentProvider(Component={0D7427C5-A8C2-505F-99E0-C80B25DFD039},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:195]: Executing op: ComponentUnregister(ComponentId={0D7427C5-A8C2-505F-99E0-C80B25DFD039},,BinaryType=1,PreviouslyPinned=1)
+MSI (s) (48:B0) [05:35:22:195]: Executing op: UnregisterSharedComponentProvider(Component={3D80F192-7A85-5945-A662-7EC6A8C25806},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:195]: Executing op: ComponentUnregister(ComponentId={3D80F192-7A85-5945-A662-7EC6A8C25806},,BinaryType=1,PreviouslyPinned=1)
+MSI (s) (48:B0) [05:35:22:196]: Executing op: UnregisterSharedComponentProvider(Component={7076FDC7-ECB7-5743-AF10-D0C5EBA954C3},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:196]: Executing op: ComponentUnregister(ComponentId={7076FDC7-ECB7-5743-AF10-D0C5EBA954C3},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:197]: Executing op: UnregisterSharedComponentProvider(Component={2ABC9BC5-E76C-43DE-91B9-2AC761317634},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:197]: Executing op: ComponentUnregister(ComponentId={2ABC9BC5-E76C-43DE-91B9-2AC761317634},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:197]: Executing op: UnregisterSharedComponentProvider(Component={B3100947-BD70-5CC5-8640-E32C549DEE30},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:197]: Executing op: ComponentUnregister(ComponentId={B3100947-BD70-5CC5-8640-E32C549DEE30},,BinaryType=1,PreviouslyPinned=1)
+MSI (s) (48:B0) [05:35:22:198]: Executing op: UnregisterSharedComponentProvider(Component={60C5BB39-76CA-547A-B297-547FD41CB29A},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:198]: Executing op: ComponentUnregister(ComponentId={60C5BB39-76CA-547A-B297-547FD41CB29A},,BinaryType=1,PreviouslyPinned=1)
+MSI (s) (48:B0) [05:35:22:198]: Executing op: UnregisterSharedComponentProvider(Component={B4074312-70D3-5CE7-A451-A074280F0813},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:199]: Executing op: ComponentUnregister(ComponentId={B4074312-70D3-5CE7-A451-A074280F0813},,BinaryType=1,PreviouslyPinned=1)
+MSI (s) (48:B0) [05:35:22:199]: Executing op: UnregisterSharedComponentProvider(Component={1B481299-2D36-55E9-B80D-EC97F820A3FE},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:199]: Executing op: ComponentUnregister(ComponentId={1B481299-2D36-55E9-B80D-EC97F820A3FE},,BinaryType=1,PreviouslyPinned=1)
+MSI (s) (48:B0) [05:35:22:200]: Executing op: UnregisterSharedComponentProvider(Component={102335D0-C0DA-550C-AB39-C581E10CD416},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:200]: Executing op: ComponentUnregister(ComponentId={102335D0-C0DA-550C-AB39-C581E10CD416},,BinaryType=1,PreviouslyPinned=1)
+MSI (s) (48:B0) [05:35:22:200]: Executing op: UnregisterSharedComponentProvider(Component={06034367-5363-5DCA-8EC9-1D909395C1DC},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:200]: Executing op: ComponentUnregister(ComponentId={06034367-5363-5DCA-8EC9-1D909395C1DC},,BinaryType=1,PreviouslyPinned=1)
+MSI (s) (48:B0) [05:35:22:201]: Executing op: UnregisterSharedComponentProvider(Component={D6950CED-F49A-51BC-B9D8-998743F055A3},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:201]: Executing op: ComponentUnregister(ComponentId={D6950CED-F49A-51BC-B9D8-998743F055A3},,BinaryType=1,PreviouslyPinned=1)
+MSI (s) (48:B0) [05:35:22:201]: Executing op: UnregisterSharedComponentProvider(Component={6D133996-2281-5067-9376-FD41CAB770BC},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:201]: Executing op: ComponentUnregister(ComponentId={6D133996-2281-5067-9376-FD41CAB770BC},,BinaryType=1,PreviouslyPinned=1)
+MSI (s) (48:B0) [05:35:22:202]: Executing op: UnregisterSharedComponentProvider(Component={BC929E36-BB5A-525A-B27A-E1AB4BC7C15D},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:202]: Executing op: ComponentUnregister(ComponentId={BC929E36-BB5A-525A-B27A-E1AB4BC7C15D},,BinaryType=1,PreviouslyPinned=1)
+MSI (s) (48:B0) [05:35:22:203]: Executing op: UnregisterSharedComponentProvider(Component={A1F65BC5-AC54-5437-9CE4-948CDA466117},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:203]: Executing op: ComponentUnregister(ComponentId={A1F65BC5-AC54-5437-9CE4-948CDA466117},,BinaryType=1,PreviouslyPinned=1)
+MSI (s) (48:B0) [05:35:22:203]: Executing op: UnregisterSharedComponentProvider(Component={E97F1EE6-AC49-598E-8C1E-169097823F20},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:203]: Executing op: ComponentUnregister(ComponentId={E97F1EE6-AC49-598E-8C1E-169097823F20},,BinaryType=1,PreviouslyPinned=1)
+MSI (s) (48:B0) [05:35:22:204]: Executing op: UnregisterSharedComponentProvider(Component={F5810D9A-AD23-5D2E-A935-2BF4E8BA657D},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:204]: Executing op: ComponentUnregister(ComponentId={F5810D9A-AD23-5D2E-A935-2BF4E8BA657D},,BinaryType=1,PreviouslyPinned=1)
+MSI (s) (48:B0) [05:35:22:204]: Executing op: UnregisterSharedComponentProvider(Component={878E2826-D454-4088-915A-353CE500D722},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:204]: Executing op: ComponentUnregister(ComponentId={878E2826-D454-4088-915A-353CE500D722},,BinaryType=1,PreviouslyPinned=1)
+MSI (s) (48:B0) [05:35:22:205]: Executing op: UnregisterSharedComponentProvider(Component={95FBA233-19F2-4A64-BEF0-DFA020E10882},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:205]: Executing op: ComponentUnregister(ComponentId={95FBA233-19F2-4A64-BEF0-DFA020E10882},,BinaryType=1,PreviouslyPinned=1)
+MSI (s) (48:B0) [05:35:22:205]: Executing op: UnregisterSharedComponentProvider(Component={9CC5C75E-3F97-5602-89F1-31872078257E},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:205]: Executing op: ComponentUnregister(ComponentId={9CC5C75E-3F97-5602-89F1-31872078257E},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:206]: Executing op: UnregisterSharedComponentProvider(Component={ADF6104F-867C-5F87-955F-1C5A5E2DE9F6},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:206]: Executing op: ComponentUnregister(ComponentId={ADF6104F-867C-5F87-955F-1C5A5E2DE9F6},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:207]: Executing op: UnregisterSharedComponentProvider(Component={073901AC-1FC7-5908-B091-8C7B5110E6D2},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:207]: Executing op: ComponentUnregister(ComponentId={073901AC-1FC7-5908-B091-8C7B5110E6D2},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:207]: Executing op: UnregisterSharedComponentProvider(Component={5839DFB5-067D-5FC5-A152-69AC82CD3368},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:208]: Executing op: ComponentUnregister(ComponentId={5839DFB5-067D-5FC5-A152-69AC82CD3368},,BinaryType=0,)
+MSI (s) (48:B0) [05:35:22:208]: WIN64DUALFOLDERS: 'C:\WINDOWS\system32\' will substitute 20 characters in 'C:\WINDOWS\SysWOW64\ScriptControl32_15806.dll' folder path. (mask argument = 1, the folder pair's iSwapAttrib member = 1).
+MSI (s) (48:B0) [05:35:22:208]: Executing op: UnregisterSharedComponentProvider(Component={0A6F276C-1828-5880-B32D-BC6CA30EC686},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:208]: Executing op: ComponentUnregister(ComponentId={0A6F276C-1828-5880-B32D-BC6CA30EC686},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:209]: Executing op: UnregisterSharedComponentProvider(Component={DF39BCDF-7A52-5E13-8AD7-507F35C06514},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:209]: Executing op: ComponentUnregister(ComponentId={DF39BCDF-7A52-5E13-8AD7-507F35C06514},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:209]: Executing op: UnregisterSharedComponentProvider(Component={EB81F3A0-E3BB-583F-A84F-2CF39EA0720E},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:210]: Executing op: ComponentUnregister(ComponentId={EB81F3A0-E3BB-583F-A84F-2CF39EA0720E},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:210]: Executing op: UnregisterSharedComponentProvider(Component={F3166D3A-6C80-544F-B371-8CA09730849A},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:210]: Executing op: ComponentUnregister(ComponentId={F3166D3A-6C80-544F-B371-8CA09730849A},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:211]: Executing op: UnregisterSharedComponentProvider(Component={23EA91D3-E885-5216-AC4A-D3B486F71C44},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:211]: Executing op: ComponentUnregister(ComponentId={23EA91D3-E885-5216-AC4A-D3B486F71C44},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:211]: Executing op: UnregisterSharedComponentProvider(Component={BF8BE845-6DFB-58D3-8614-EE65E620F43A},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:211]: Executing op: ComponentUnregister(ComponentId={BF8BE845-6DFB-58D3-8614-EE65E620F43A},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:212]: Executing op: UnregisterSharedComponentProvider(Component={E01A7EE5-39C2-57C7-AC55-1CDF084D2782},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:212]: Executing op: ComponentUnregister(ComponentId={E01A7EE5-39C2-57C7-AC55-1CDF084D2782},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:212]: Executing op: UnregisterSharedComponentProvider(Component={0044A1F4-4C26-412F-A0BB-6A7360133B75},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:212]: Executing op: ComponentUnregister(ComponentId={0044A1F4-4C26-412F-A0BB-6A7360133B75},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:213]: Executing op: UnregisterSharedComponentProvider(Component={9AA4CF47-6A9B-4F12-A786-37E7174C6666},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:213]: Executing op: ComponentUnregister(ComponentId={9AA4CF47-6A9B-4F12-A786-37E7174C6666},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:214]: Executing op: UnregisterSharedComponentProvider(Component={AFA19207-DB89-517D-BF40-4748B342D1FB},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:214]: Executing op: ComponentUnregister(ComponentId={AFA19207-DB89-517D-BF40-4748B342D1FB},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:214]: Executing op: UnregisterSharedComponentProvider(Component={0D07CF87-1005-5124-B64E-69FE28E834B3},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:214]: Executing op: ComponentUnregister(ComponentId={0D07CF87-1005-5124-B64E-69FE28E834B3},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:215]: Executing op: UnregisterSharedComponentProvider(Component={3A8A4CAC-4AC0-5BAA-994B-B7E22EEA3256},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:215]: Executing op: ComponentUnregister(ComponentId={3A8A4CAC-4AC0-5BAA-994B-B7E22EEA3256},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:215]: Executing op: UnregisterSharedComponentProvider(Component={A6B66044-B1B3-5E16-8350-C7763D40AA4C},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:216]: Executing op: ComponentUnregister(ComponentId={A6B66044-B1B3-5E16-8350-C7763D40AA4C},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:216]: Executing op: UnregisterSharedComponentProvider(Component={296D62E5-7476-5A96-BEDE-F5787769A55F},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:216]: Executing op: ComponentUnregister(ComponentId={296D62E5-7476-5A96-BEDE-F5787769A55F},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:217]: Executing op: UnregisterSharedComponentProvider(Component={B78D072F-E755-5849-A305-096D3CEF240C},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:217]: Executing op: ComponentUnregister(ComponentId={B78D072F-E755-5849-A305-096D3CEF240C},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:217]: Executing op: UnregisterSharedComponentProvider(Component={8E7C2507-9D52-5712-B4F3-103830142509},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:217]: Executing op: ComponentUnregister(ComponentId={8E7C2507-9D52-5712-B4F3-103830142509},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:218]: Executing op: UnregisterSharedComponentProvider(Component={B407578C-D071-5470-B7DA-4674FAA365F7},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:218]: Executing op: ComponentUnregister(ComponentId={B407578C-D071-5470-B7DA-4674FAA365F7},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:219]: Executing op: UnregisterSharedComponentProvider(Component={90743F94-2325-5D89-AEC8-F3B5B671DBB8},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:219]: Executing op: ComponentUnregister(ComponentId={90743F94-2325-5D89-AEC8-F3B5B671DBB8},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:219]: Executing op: UnregisterSharedComponentProvider(Component={8DDB5AE3-1DE0-57BB-A911-74D091C44E0B},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:219]: Executing op: ComponentUnregister(ComponentId={8DDB5AE3-1DE0-57BB-A911-74D091C44E0B},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:220]: Executing op: UnregisterSharedComponentProvider(Component={49C04233-9699-5252-A2C6-357FE69A5626},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:220]: Executing op: ComponentUnregister(ComponentId={49C04233-9699-5252-A2C6-357FE69A5626},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:220]: Executing op: UnregisterSharedComponentProvider(Component={B47A5FC9-D0F0-53EF-A557-7D83A89673FD},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:220]: Executing op: ComponentUnregister(ComponentId={B47A5FC9-D0F0-53EF-A557-7D83A89673FD},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:221]: Executing op: UnregisterSharedComponentProvider(Component={48F3BDF5-D58C-4F4F-89E2-FEC28D120718},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:221]: Executing op: ComponentUnregister(ComponentId={48F3BDF5-D58C-4F4F-89E2-FEC28D120718},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:222]: Executing op: UnregisterSharedComponentProvider(Component={7D45CCE9-8D35-4AEC-9F64-3D91CC843979},ProductCode={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:22:222]: Executing op: ComponentUnregister(ComponentId={7D45CCE9-8D35-4AEC-9F64-3D91CC843979},,BinaryType=1,)
+MSI (s) (48:B0) [05:35:22:222]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (48:B0) [05:35:22:222]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (48:B0) [05:35:22:222]: Executing op: ProgressTick()
+MSI (s) (48:B0) [05:35:22:222]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (48:B0) [05:35:22:223]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:22:223]: Executing op: ProgressTick()
+MSI (s) (48:B0) [05:35:22:223]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (48:B0) [05:35:22:223]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:22:223]: Executing op: ProgressTick()
+MSI (s) (48:B0) [05:35:22:223]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (48:B0) [05:35:22:224]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:22:224]: Executing op: ProgressTick()
+MSI (s) (48:B0) [05:35:22:224]: Executing op: ActionStart(Name=UnpublishFeatures,Description=Unpublishing Product Features,Template=Feature: [1])
+MSI (s) (48:B0) [05:35:22:224]: Executing op: FeatureUnpublish(Feature=ProductFeature,,Absent=2,Component=E89}wYe!cAo{-FE`.)Mzqvl2{HN8!Avo^`(2TJ8uNviTx9g&L@HnOu9eJsf^LU^!sBiMR9Z{de9qf!)d^w5LC&}w@?Wo._2c5WiP^KE+Jjbv^9R{kgKN~vaA8jB2lWPcR=TwLMX.hPvSraw1P_B6)@C9Vv4{{Gk5Hf+Y?Hu7oCB3'_ZMiaY!vzPqmgQ'SC-'wU7u[G71x.0qnHhvnAH2BDiyD?`wsp866y6?PF[6RekfOf=mUs2w,gJxUFY%Ick{XuY=Q8*@^@sYC9OV8q4S-ZSPA~UC'C3foAw=yk&3aOY6k)6j7r`lcDwI^lhGiH&%%6K0LhE~&D$4%Yh&_6kgq=Tg1I!1n9f_$$if[4r48MlVbyIMnET!@L25Rjf3Che+G4hq0CFkTwPgx,fY5z2rb[*&rE.S+QM{,w,)3]Aj+v*~[Cs3EoX5^Jpzb)r3({cODCT`3eQVk_D*,8=x$]+90F)O+CVE?nyo5c0{mqV~=B,nOYSUm0R]yxm'K)~SpAr}j59(G}WeLrZ[e@doOB4IZ8`ZXD.F3f^']`uf(CvJU3UmmeS*Akr&t[Y[kDzu?BVLP}F-GYuuw*9_yE~mKPwY$fAP3k6XSpw!h8+CoE7^pk4.6AG5X4p?v?X=wd[`CJlQ[UqHZWSa_C]DHNSe73VP'CLv`hHidF=vfzD?2DFxloBC%q-9]Ds+7eOC,TklO@8FD}7CkF-Z*K`jvcQI1B'F&A8gMD-GTyJ~frBS.G?hpg_'8FZi-wPB)8W)%bmct`qsFD@d61w98d_'*4t-wdD=+C{t![[eH6aYFL4V.TQZHBR`y,c]zjt9LBpWfi0^VDm=]iH_XVy6-*=%qCE!6D}`.ep~=`oQXVC*!avjy8cD(+ML=]bM$?ddY6L1KAv0ZBsXfMvHi,'Na]5=4BcyW7?AiGxy=7}3'^db)B@08jzwsfZb7^9n65C4OERY^rquyqdC%tIY^WnI8F6Mu2NGFJ_@]WhB1Y?i,E0yR
+MSI (s) (48:B0) [05:35:22:224]: Note: 1: 1402 2: UNKNOWN\Installer\Features\707B717DF4B58024293E77AF38266A01 3: 2 
+MSI (s) (48:B0) [05:35:22:225]: Executing op: ActionStart(Name=CsUtilRestartSensorForRollback,,)
+MSI (s) (48:B0) [05:35:22:225]: Executing op: CustomActionSchedule(Action=CsUtilRestartSensorForRollback,ActionType=3329,Source=BinaryData,Target=StartSensor,)
+MSI (s) (48:B0) [05:35:22:226]: Executing op: ActionStart(Name=FgwepRollbackProtectedServices64,,)
+MSI (s) (48:B0) [05:35:22:227]: Executing op: CustomActionSchedule(Action=FgwepRollbackProtectedServices64,ActionType=3393,Source=BinaryData,Target=ExecProtectedServices,CustomActionData=CSFalconServiceC:\WINDOWS\system32\drivers\CrowdStrike\CSBoot.sys)
+MSI (s) (48:B0) [05:35:22:227]: Executing op: ActionStart(Name=UnprotectServiceCSFalconServiceExec,,)
+MSI (s) (48:B0) [05:35:22:229]: Executing op: CustomActionSchedule(Action=UnprotectServiceCSFalconServiceExec,ActionType=11329,Source=BinaryData,Target=**********,CustomActionData=**********)
+MSI (s) (48:EC) [05:35:22:230]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSIF58E.tmp, Entrypoint: RunBinarySilentlyExec
+MSI (s) (48:B0) [05:35:22:413]: Executing op: ActionStart(Name=StopServices,Description=Stopping services,Template=Service: [1])
+MSI (s) (48:B0) [05:35:22:413]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=1300000)
+MSI (s) (48:B0) [05:35:22:414]: Executing op: ServiceControl(,Name=CSFalconService,Action=2,Wait=1,)
+MSI (s) (48:B0) [05:35:30:520]: Executing op: ActionStart(Name=RemoveRegistryValues,Description=Removing system registry values,Template=Key: [1], Name: [2])
+MSI (s) (48:B0) [05:35:30:520]: Executing op: ProgressTotal(Total=49,Type=1,ByteEquivalent=13200)
+MSI (s) (48:B0) [05:35:30:520]: Executing op: RegOpenKey(,Key=CrowdStrike.RemoteResponse2,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:520]: Executing op: RegRemoveValue(,Value=CrowdStrike.RemoteResponse.RemoteResponse2,)
+MSI (s) (48:B0) [05:35:30:521]: Executing op: RegOpenKey(,Key=CrowdStrike.RemoteResponse2\CLSID,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:521]: Executing op: RegRemoveValue(,Value={BFCC80BE-AE9A-4E79-8B13-454A10C3A1B1},)
+MSI (s) (48:B0) [05:35:30:522]: Executing op: RegOpenKey(,Key=CLSID\{BFCC80BE-AE9A-4E79-8B13-454A10C3A1B1}\ProgID,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:522]: Executing op: RegRemoveValue(,Value=CrowdStrike.RemoteResponse2,)
+MSI (s) (48:B0) [05:35:30:523]: Executing op: RegOpenKey(,Key=CLSID\{BFCC80BE-AE9A-4E79-8B13-454A10C3A1B1}\InprocServer32,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:523]: Executing op: RegRemoveValue(,Value=mscoree.dll,)
+MSI (s) (48:B0) [05:35:30:524]: Executing op: RegRemoveValue(Name=ThreadingModel,Value=Both,)
+MSI (s) (48:B0) [05:35:30:524]: Executing op: RegRemoveValue(Name=Class,Value=CrowdStrike.RemoteResponse.RemoteResponse2,)
+MSI (s) (48:B0) [05:35:30:525]: Executing op: RegRemoveValue(Name=Assembly,Value=CsPs2, Version=6.44.15806.0, Culture=neutral, PublicKeyToken=02b60967b1f68187,)
+MSI (s) (48:B0) [05:35:30:526]: Executing op: RegRemoveValue(Name=RuntimeVersion,Value=v2.0.50727,)
+MSI (s) (48:B0) [05:35:30:526]: Executing op: RegRemoveValue(Name=CodeBase,Value=file:///[#CsPs2Dll],)
+MSI (s) (48:B0) [05:35:30:527]: Executing op: RegOpenKey(,Key=CLSID\{BFCC80BE-AE9A-4E79-8B13-454A10C3A1B1},,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:527]: Executing op: RegRemoveValue(Name=AppID,Value={BFCC80BE-AE9A-4E79-8B13-454A10C3A1B1},)
+MSI (s) (48:B0) [05:35:30:528]: Executing op: RegRemoveValue(,Value=CrowdStrike.RemoteResponse.RemoteResponse2,)
+MSI (s) (48:B0) [05:35:30:528]: Executing op: RegOpenKey(,Key=AppID\{BFCC80BE-AE9A-4E79-8B13-454A10C3A1B1},,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:528]: Executing op: RegRemoveValue(,Value=CrowdStrike.RemoteResponse2,)
+MSI (s) (48:B0) [05:35:30:529]: Executing op: RegOpenKey(,Key=Interface\{520F9CE3-86E0-491E-A6A3-8F304C78EB8B},,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:529]: Executing op: RegRemoveValue(,Value=IRemoteResponse,)
+MSI (s) (48:B0) [05:35:30:530]: Executing op: RegRemoveValue(,Value=IRemoteResponse,)
+MSI (s) (48:B0) [05:35:30:530]: Executing op: RegOpenKey(,Key=Interface\{520F9CE3-86E0-491E-A6A3-8F304C78EB8B}\ProxyStubClsid32,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:530]: Executing op: RegRemoveValue(,Value={00020420-0000-0000-C000-000000000046},)
+MSI (s) (48:B0) [05:35:30:531]: Executing op: RegRemoveValue(,Value={00020420-0000-0000-C000-000000000046},)
+MSI (s) (48:B0) [05:35:30:532]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Classes\Interface\{520F9CE3-86E0-491E-A6A3-8F304C78EB8B}\ProxyStubClsid32 3: 2 
+MSI (s) (48:B0) [05:35:30:532]: Executing op: RegOpenKey(,Key=Appid\{BFCC80BE-AE9A-4E79-8B13-454A10C3A1B1},,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:532]: Executing op: RegRemoveValue(Name=DllSurrogate,,)
+MSI (s) (48:B0) [05:35:30:532]: Executing op: RegRemoveValue(Name=LaunchPermission,Value=#x010004803000000040000000000000001400000002001c0001000000000014000b0000000101000000000005120000000102000000000005200000002002000001020000000000052000000020020000,)
+MSI (s) (48:B0) [05:35:30:533]: Executing op: RegOpenKey(,Key=CLSID\{BFCC80BE-AE9A-4E79-8B13-454A10C3A1B1}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29},,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:533]: Executing op: RegRemoveValue(,,)
+MSI (s) (48:B0) [05:35:30:534]: Executing op: RegOpenKey(,Key=CLSID\{BFCC80BE-AE9A-4E79-8B13-454A10C3A1B1}\InprocServer32\6.44.15806.0,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:534]: Executing op: RegRemoveValue(Name=Class,Value=CrowdStrike.RemoteResponse.RemoteResponse2,)
+MSI (s) (48:B0) [05:35:30:535]: Executing op: RegRemoveValue(Name=Assembly,Value=CsPs2, Version=6.44.15806.0, Culture=neutral, PublicKeyToken=02b60967b1f68187,)
+MSI (s) (48:B0) [05:35:30:535]: Executing op: RegRemoveValue(Name=RuntimeVersion,Value=v2.0.50727,)
+MSI (s) (48:B0) [05:35:30:536]: Executing op: RegRemoveValue(Name=CodeBase,Value=file:///[#CsPs2Dll],)
+MSI (s) (48:B0) [05:35:30:537]: Executing op: RegOpenKey(,Key=Appid\{BD07DDB9-1C61-4DCE-9202-A2BA1757CDB2},,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:537]: Executing op: RegRemoveValue(,Value=CrowdStrike.RemoteResponse4,)
+MSI (s) (48:B0) [05:35:30:537]: Executing op: RegRemoveValue(Name=DllSurrogate,,)
+MSI (s) (48:B0) [05:35:30:538]: Executing op: RegRemoveValue(Name=LaunchPermission,Value=#x010004803000000040000000000000001400000002001c0001000000000014000b0000000101000000000005120000000102000000000005200000002002000001020000000000052000000020020000,)
+MSI (s) (48:B0) [05:35:30:539]: Executing op: RegOpenKey(,Key=CrowdStrike.RemoteResponse4,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:539]: Executing op: RegRemoveValue(,Value=CrowdStrike.RemoteResponse.RemoteResponse4,)
+MSI (s) (48:B0) [05:35:30:539]: Executing op: RegOpenKey(,Key=CrowdStrike.RemoteResponse4\CLSID,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:539]: Executing op: RegRemoveValue(,Value={BD07DDB9-1C61-4DCE-9202-A2BA1757CDB2},)
+MSI (s) (48:B0) [05:35:30:540]: Executing op: RegOpenKey(,Key=CLSID\{BD07DDB9-1C61-4DCE-9202-A2BA1757CDB2},,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:540]: Executing op: RegRemoveValue(,Value=CrowdStrike.RemoteResponse.RemoteResponse4,)
+MSI (s) (48:B0) [05:35:30:541]: Executing op: RegRemoveValue(Name=AppID,Value={BD07DDB9-1C61-4DCE-9202-A2BA1757CDB2},)
+MSI (s) (48:B0) [05:35:30:541]: Executing op: RegOpenKey(,Key=CLSID\{BD07DDB9-1C61-4DCE-9202-A2BA1757CDB2}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29},,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:541]: Executing op: RegRemoveValue(,,)
+MSI (s) (48:B0) [05:35:30:542]: Executing op: RegOpenKey(,Key=CLSID\{BD07DDB9-1C61-4DCE-9202-A2BA1757CDB2}\InprocServer32\6.44.15806.0,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:542]: Executing op: RegRemoveValue(Name=Class,Value=CrowdStrike.RemoteResponse.RemoteResponse4,)
+MSI (s) (48:B0) [05:35:30:543]: Executing op: RegRemoveValue(Name=Assembly,Value=CsPs4, Version=6.44.15806.0, Culture=neutral, PublicKeyToken=02b60967b1f68187,)
+MSI (s) (48:B0) [05:35:30:543]: Executing op: RegRemoveValue(Name=RuntimeVersion,Value=v4.0.30319,)
+MSI (s) (48:B0) [05:35:30:544]: Executing op: RegRemoveValue(Name=CodeBase,Value=file:///[#CsPs4Dll],)
+MSI (s) (48:B0) [05:35:30:545]: Executing op: RegOpenKey(,Key=CLSID\{BD07DDB9-1C61-4DCE-9202-A2BA1757CDB2}\InprocServer32,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:545]: Executing op: RegRemoveValue(,Value=mscoree.dll,)
+MSI (s) (48:B0) [05:35:30:545]: Executing op: RegRemoveValue(Name=Class,Value=CrowdStrike.RemoteResponse.RemoteResponse4,)
+MSI (s) (48:B0) [05:35:30:546]: Executing op: RegRemoveValue(Name=Assembly,Value=CsPs4, Version=6.44.15806.0, Culture=neutral, PublicKeyToken=02b60967b1f68187,)
+MSI (s) (48:B0) [05:35:30:546]: Executing op: RegRemoveValue(Name=RuntimeVersion,Value=v4.0.30319,)
+MSI (s) (48:B0) [05:35:30:547]: Executing op: RegRemoveValue(Name=CodeBase,Value=file:///[#CsPs4Dll],)
+MSI (s) (48:B0) [05:35:30:548]: Executing op: RegRemoveValue(Name=ThreadingModel,Value=Both,)
+MSI (s) (48:B0) [05:35:30:548]: Executing op: RegOpenKey(,Key=CLSID\{BD07DDB9-1C61-4DCE-9202-A2BA1757CDB2}\ProgID,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:548]: Executing op: RegRemoveValue(,Value=CrowdStrike.RemoteResponse4,)
+MSI (s) (48:B0) [05:35:30:549]: Executing op: RegOpenKey(Root=-2147483646,Key=SYSTEM\CurrentControlSet\Services\CSAgent,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:549]: Executing op: RegRemoveValue(Name=CNFG,Value=Config.sys,)
+MSI (s) (48:B0) [05:35:30:550]: Executing op: RegRemoveValue(Name=SupportedFeatures,Value=#15,)
+MSI (s) (48:B0) [05:35:30:550]: Executing op: RegOpenKey(Root=-2147483646,Key=System\CurrentControlSet\Services\CSAgent\Instances,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:550]: Executing op: RegRemoveValue(Name=DefaultInstance,Value=CSAgent Instance,)
+MSI (s) (48:B0) [05:35:30:551]: Executing op: RegOpenKey(Root=-2147483646,Key=System\CurrentControlSet\Services\CSAgent\Instances\CSAgent Instance,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:551]: Executing op: RegRemoveValue(Name=Altitude,Value=321410,)
+MSI (s) (48:B0) [05:35:30:552]: Executing op: RegRemoveValue(Name=Flags,Value=#0,)
+MSI (s) (48:B0) [05:35:30:552]: Executing op: RegOpenKey(Root=-2147483646,Key=System\CurrentControlSet\Services\CSFalconService\Integration,,BinaryType=1,,)
+MSI (s) (48:B0) [05:35:30:552]: Executing op: RegRemoveValue(Name=CsIntegration64,Value=[CSPROGFOLDER]CsIntegration64_15806.dll,)
+MSI (s) (48:B0) [05:35:30:553]: Executing op: RegRemoveValue(Name=CsIntegration32,Value=[CSPROGFOLDER]CsIntegration32_15806.dll,)
+MSI (s) (48:B0) [05:35:30:554]: Executing op: ActionStart(Name=RollbackUnregisterEventManifest,,)
+MSI (s) (48:B0) [05:35:30:554]: Executing op: CustomActionSchedule(Action=RollbackUnregisterEventManifest,ActionType=3329,Source=BinaryData,Target=CAQuietExec,CustomActionData="wevtutil.exe" im "C:\Program Files\CrowdStrike\CSFalconService.man")
+MSI (s) (48:B0) [05:35:30:555]: Executing op: ActionStart(Name=UnregisterEventManifest,,)
+MSI (s) (48:B0) [05:35:30:555]: Executing op: CustomActionSchedule(Action=UnregisterEventManifest,ActionType=3137,Source=BinaryData,Target=CAQuietExec,CustomActionData="wevtutil.exe" um "C:\Program Files\CrowdStrike\CSFalconService.man")
+MSI (s) (48:44) [05:35:30:557]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSI1617.tmp, Entrypoint: CAQuietExec
+MSI (s) (48:B0) [05:35:30:646]: Executing op: ActionStart(Name=FgwepDriversRollback64,,)
+MSI (s) (48:B0) [05:35:30:646]: Executing op: CustomActionSchedule(Action=FgwepDriversRollback64,ActionType=3393,Source=BinaryData,Target=DriversRollback,CustomActionData=DriversUninstall2)
+MSI (s) (48:B0) [05:35:30:647]: Executing op: ActionStart(Name=FgwepDriversExecute64,,)
+MSI (s) (48:B0) [05:35:30:647]: Executing op: CustomActionSchedule(Action=FgwepDriversExecute64,ActionType=3073,Source=BinaryData,Target=DriversExec,CustomActionData=DriversUninstall22CSAgentCSAgent2CSBootCSBoot)
+MSI (s) (48:48) [05:35:30:649]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSI1676.tmp, Entrypoint: DriversExec
+DriversExec:  Removed driver: CSAgent with name: CSAgent
+MSI (s) (48:B0) [05:35:30:658]: Executing op: ActionStart(Name=FgwepRollbackProtectedServices64,,)
+DriversExec:  Removed driver: CSBoot with name: CSBoot
+MSI (s) (48:B0) [05:35:30:658]: Executing op: CustomActionSchedule(Action=FgwepRollbackProtectedServices64,ActionType=3393,Source=BinaryData,Target=ExecProtectedServices,CustomActionData=CSFalconServiceC:\WINDOWS\system32\drivers\CrowdStrike\CSBoot.sys)
+MSI (s) (48:B0) [05:35:30:659]: Executing op: ActionStart(Name=DeleteServices,Description=Deleting services,Template=Service: [1])
+MSI (s) (48:B0) [05:35:30:659]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=1300000)
+MSI (s) (48:B0) [05:35:30:659]: Executing op: ServiceControl(,Name=CSFalconService,Action=8,Wait=1,)
+MSI (s) (48:B0) [05:35:30:660]: Executing op: ActionStart(Name=SelfUnregModules,Description=Unregistering modules,Template=File: [1], Folder: [2])
+MSI (s) (48:B0) [05:35:30:661]: Executing op: ProgressTotal(Total=3,Type=1,ByteEquivalent=1300000)
+MSI (s) (48:B0) [05:35:30:661]: Executing op: SetTargetFolder(Folder=C:\WINDOWS\system32\)
+MSI (s) (48:B0) [05:35:30:661]: Executing op: RegSelfUnreg(File=ScriptControl64_15806.dll,FileID=ScriptControlSystem32Dll)
+MSI (s) (48:B0) [05:35:30:684]: Executing op: SetTargetFolder(Folder=C:\WINDOWS\SysWOW64\)
+MSI (s) (48:B0) [05:35:30:684]: Executing op: RegSelfUnreg(File=ScriptControl32_15806.dll,FileID=ScriptControlSyswow64Dll)
+MSI (s) (48:B0) [05:35:30:714]: Executing op: SetTargetFolder(Folder=C:\Program Files\CrowdStrike\)
+MSI (s) (48:B0) [05:35:30:714]: Executing op: RegSelfUnreg(File=CSCOMUtils.dll,FileID=CsComUtilsDll)
+MSI (s) (48:B0) [05:35:30:737]: Executing op: ActionStart(Name=RemoveIniValues,Description=Removing INI files entries,Template=File: [1],  Section: [2],  Key: [3], Value: [4])
+MSI (s) (48:B0) [05:35:30:737]: Executing op: ProgressTotal(Total=4,Type=1,ByteEquivalent=13200)
+MSI (s) (48:B0) [05:35:30:737]: Executing op: IniFilePath(File=SecurityProductInformation.ini,Folder=C:\Program Files\CrowdStrike\)
+MSI (s) (48:B0) [05:35:30:737]: Executing op: IniWriteRemoveValue(Section=Products,Key=Name,Value=CrowdStrike Falcon Sensor,Mode=2)
+MSI (s) (48:B0) [05:35:30:738]: Executing op: IniWriteRemoveValue(Section=Products,Key=Version,Value=6.44.15806.0,Mode=2)
+MSI (s) (48:B0) [05:35:30:739]: Executing op: IniWriteRemoveValue(Section=Products,Key=Company,Value=CrowdStrike, Inc.,Mode=2)
+MSI (s) (48:B0) [05:35:30:740]: Executing op: IniWriteRemoveValue(Section=Products,Key=Upgrade,Value=False,Mode=2)
+MSI (s) (48:B0) [05:35:30:742]: Executing op: ActionStart(Name=RemoveFiles,Description=Removing files,Template=File: [1], Directory: [9])
+MSI (s) (48:B0) [05:35:30:742]: Executing op: ProgressTotal(Total=28,Type=1,ByteEquivalent=175000)
+MSI (s) (48:B0) [05:35:30:742]: Executing op: SetTargetFolder(Folder=C:\WINDOWS\system32\drivers\CrowdStrike\)
+MSI (s) (48:B0) [05:35:30:743]: Executing op: FileRemove(,FileName=cspcm4.sys,,ComponentId={495C0D6D-2510-5694-8966-8C9D3A6DD101})
+MSI (s) (48:B0) [05:35:30:744]: Verifying accessibility of file: cspcm4.sys
+MSI (s) (48:B0) [05:35:30:745]: Executing op: FileRemove(,FileName=CSAgent.sys,,ComponentId={D63A75C6-6F39-5595-8823-CC3CB6442829})
+MSI (s) (48:B0) [05:35:30:746]: Verifying accessibility of file: CSAgent.sys
+MSI (s) (48:B0) [05:35:30:747]: Executing op: FileRemove(,FileName=Config.sys,,ComponentId={D953CCFF-1D5A-5058-BC70-2AC89465B6F4})
+MSI (s) (48:B0) [05:35:30:748]: Verifying accessibility of file: Config.sys
+MSI (s) (48:B0) [05:35:30:749]: Executing op: FileRemove(,FileName=Osfm-00000001.bin,,ComponentId={38AC4D6D-F12F-5ED0-B51C-91CF272E68D4})
+MSI (s) (48:B0) [05:35:30:750]: Verifying accessibility of file: Osfm-00000001.bin
+MSI (s) (48:B0) [05:35:30:751]: Executing op: FileRemove(,FileName=CSBoot.sys,,ComponentId={1EDD3A4C-FD86-5F05-885B-7DCFC1034746})
+MSI (s) (48:B0) [05:35:30:752]: Verifying accessibility of file: CSBoot.sys
+MSI (s) (48:B0) [05:35:30:752]: Executing op: SetTargetFolder(Folder=C:\WINDOWS\system32\)
+MSI (s) (48:B0) [05:35:30:753]: Executing op: FileRemove(,FileName=umppc15806.dll,,ComponentId={9CC5C75E-3F97-5602-89F1-31872078257E})
+MSI (s) (48:B0) [05:35:30:754]: Verifying accessibility of file: umppc15806.dll
+MSI (s) (48:B0) [05:35:30:754]: Executing op: FileRemove(,FileName=ScriptControl64_15806.dll,,ComponentId={ADF6104F-867C-5F87-955F-1C5A5E2DE9F6})
+MSI (s) (48:B0) [05:35:30:756]: Verifying accessibility of file: ScriptControl64_15806.dll
+MSI (s) (48:B0) [05:35:30:756]: Executing op: FileRemove(,FileName=CrowdStrike.Sensor.ScriptControl15806.dll,,ComponentId={073901AC-1FC7-5908-B091-8C7B5110E6D2})
+MSI (s) (48:B0) [05:35:30:758]: Verifying accessibility of file: CrowdStrike.Sensor.ScriptControl15806.dll
+MSI (s) (48:B0) [05:35:30:758]: Executing op: SetTargetFolder(Folder=C:\WINDOWS\SysWOW64\)
+MSI (s) (48:B0) [05:35:30:758]: Executing op: FileRemove(,FileName=ScriptControl32_15806.dll,,ComponentId={5839DFB5-067D-5FC5-A152-69AC82CD3368})
+MSI (s) (48:B0) [05:35:30:760]: Verifying accessibility of file: ScriptControl32_15806.dll
+MSI (s) (48:B0) [05:35:30:760]: Executing op: SetTargetFolder(Folder=C:\Program Files\CrowdStrike\)
+MSI (s) (48:B0) [05:35:30:760]: Executing op: FileRemove(,FileName=CSFalconService.exe,,ComponentId={0A6F276C-1828-5880-B32D-BC6CA30EC686})
+MSI (s) (48:B0) [05:35:30:762]: Verifying accessibility of file: CSFalconService.exe
+MSI (s) (48:B0) [05:35:30:762]: Executing op: FileRemove(,FileName=CSFalconController.exe,,ComponentId={DF39BCDF-7A52-5E13-8AD7-507F35C06514})
+MSI (s) (48:B0) [05:35:30:763]: Verifying accessibility of file: CSFalconController.exe
+MSI (s) (48:B0) [05:35:30:764]: Executing op: FileRemove(,FileName=CSFalconContainer.exe,,ComponentId={EB81F3A0-E3BB-583F-A84F-2CF39EA0720E})
+MSI (s) (48:B0) [05:35:30:765]: Verifying accessibility of file: CSFalconContainer.exe
+MSI (s) (48:B0) [05:35:30:766]: Executing op: FileRemove(,FileName=CSFalconService.man,,ComponentId={F3166D3A-6C80-544F-B371-8CA09730849A})
+MSI (s) (48:B0) [05:35:30:767]: Verifying accessibility of file: CSFalconService.man
+MSI (s) (48:B0) [05:35:30:768]: Executing op: FileRemove(,FileName=CSCOMUtils.exe,,ComponentId={23EA91D3-E885-5216-AC4A-D3B486F71C44})
+MSI (s) (48:B0) [05:35:30:768]: Verifying accessibility of file: CSCOMUtils.exe
+MSI (s) (48:B0) [05:35:30:769]: Executing op: FileRemove(,FileName=CSCOMUtils.dll,,ComponentId={BF8BE845-6DFB-58D3-8614-EE65E620F43A})
+MSI (s) (48:B0) [05:35:30:770]: Verifying accessibility of file: CSCOMUtils.dll
+MSI (s) (48:B0) [05:35:30:771]: Executing op: FileRemove(,FileName=CsPs2.dll,,ComponentId={E01A7EE5-39C2-57C7-AC55-1CDF084D2782})
+MSI (s) (48:B0) [05:35:30:772]: Verifying accessibility of file: CsPs2.dll
+MSI (s) (48:B0) [05:35:30:773]: Executing op: FileRemove(,FileName=CsPs4.dll,,ComponentId={0044A1F4-4C26-412F-A0BB-6A7360133B75})
+MSI (s) (48:B0) [05:35:30:774]: Verifying accessibility of file: CsPs4.dll
+MSI (s) (48:B0) [05:35:30:774]: Executing op: SetTargetFolder(Folder=C:\Windows\ELAMBKUP\)
+MSI (s) (48:B0) [05:35:30:774]: Executing op: FileRemove(,FileName=CSBoot.sys,,ComponentId={9AA4CF47-6A9B-4F12-A786-37E7174C6666})
+MSI (s) (48:B0) [05:35:30:775]: Verifying accessibility of file: CSBoot.sys
+MSI (s) (48:B0) [05:35:30:776]: Executing op: SetTargetFolder(Folder=C:\Program Files\CrowdStrike\Extensibility\FXML\)
+MSI (s) (48:B0) [05:35:30:776]: Executing op: FileRemove(,FileName=CsMl.dll,,ComponentId={AFA19207-DB89-517D-BF40-4748B342D1FB})
+MSI (s) (48:B0) [05:35:30:780]: Verifying accessibility of file: CsMl.dll
+MSI (s) (48:B0) [05:35:30:781]: Executing op: SetTargetFolder(Folder=C:\Program Files\CrowdStrike\Extensibility\IDP\)
+MSI (s) (48:B0) [05:35:30:782]: Executing op: FileRemove(,FileName=CsIdpPa.dll,,ComponentId={0D07CF87-1005-5124-B64E-69FE28E834B3})
+MSI (s) (48:B0) [05:35:30:782]: Verifying accessibility of file: CsIdpPa.dll
+MSI (s) (48:B0) [05:35:30:783]: Executing op: SetTargetFolder(Folder=C:\Program Files\CrowdStrike\Extensibility\LEDGER\)
+MSI (s) (48:B0) [05:35:30:783]: Executing op: FileRemove(,FileName=CsLedger.dll,,ComponentId={3A8A4CAC-4AC0-5BAA-994B-B7E22EEA3256})
+MSI (s) (48:B0) [05:35:30:784]: Verifying accessibility of file: CsLedger.dll
+MSI (s) (48:B0) [05:35:30:785]: Executing op: SetTargetFolder(Folder=C:\Program Files\CrowdStrike\)
+MSI (s) (48:B0) [05:35:30:785]: Executing op: FileRemove(,FileName=CsIntegration64_15806.dll,,ComponentId={A6B66044-B1B3-5E16-8350-C7763D40AA4C})
+MSI (s) (48:B0) [05:35:30:786]: Verifying accessibility of file: CsIntegration64_15806.dll
+MSI (s) (48:B0) [05:35:30:787]: Executing op: FileRemove(,FileName=CsIntegration32_15806.dll,,ComponentId={B78D072F-E755-5849-A305-096D3CEF240C})
+MSI (s) (48:B0) [05:35:30:788]: Verifying accessibility of file: CsIntegration32_15806.dll
+MSI (s) (48:B0) [05:35:30:789]: Executing op: SetTargetFolder(Folder=C:\Program Files\CrowdStrike\Extensibility\MEMSCAN\)
+MSI (s) (48:B0) [05:35:30:789]: Executing op: FileRemove(,FileName=CsAms.dll,,ComponentId={B407578C-D071-5470-B7DA-4674FAA365F7})
+MSI (s) (48:B0) [05:35:30:790]: Verifying accessibility of file: CsAms.dll
+MSI (s) (48:B0) [05:35:30:790]: Executing op: SetTargetFolder(Folder=C:\Program Files\CrowdStrike\)
+MSI (s) (48:B0) [05:35:30:790]: Executing op: FileRemove(,FileName=CSSensorSettings.exe,,ComponentId={90743F94-2325-5D89-AEC8-F3B5B671DBB8})
+MSI (s) (48:B0) [05:35:30:791]: Verifying accessibility of file: CSSensorSettings.exe
+MSI (s) (48:B0) [05:35:30:792]: Executing op: FileRemove(,FileName=CsScanCli.exe,,ComponentId={8DDB5AE3-1DE0-57BB-A911-74D091C44E0B})
+MSI (s) (48:B0) [05:35:30:793]: Verifying accessibility of file: CsScanCli.exe
+MSI (s) (48:B0) [05:35:30:794]: Executing op: FileRemove(,FileName=CsScan.exe,,ComponentId={49C04233-9699-5252-A2C6-357FE69A5626})
+MSI (s) (48:B0) [05:35:30:795]: Verifying accessibility of file: CsScan.exe
+MSI (s) (48:B0) [05:35:30:796]: Executing op: FileRemove(,FileName=ReadMe.rtf,,ComponentId={B47A5FC9-D0F0-53EF-A557-7D83A89673FD})
+MSI (s) (48:B0) [05:35:30:796]: Verifying accessibility of file: ReadMe.rtf
+MSI (s) (48:B0) [05:35:30:797]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=175000)
+MSI (s) (48:B0) [05:35:30:797]: Executing op: FolderRemove(Folder=C:\WINDOWS\system32\drivers\CrowdStrike\Downloads\,Foreign=1)
+MSI (s) (48:B0) [05:35:30:798]: Executing op: ActionStart(Name=RemoveFolders,Description=Removing folders,Template=Folder: [1])
+MSI (s) (48:B0) [05:35:30:798]: Executing op: FolderRemove(Folder=C:\WINDOWS\system32\drivers\CrowdStrike\,Foreign=0)
+MSI (s) (48:B0) [05:35:30:799]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:799]: Executing op: FolderRemove(Folder=C:\WINDOWS\system32\drivers\CrowdStrike\,Foreign=0)
+MSI (s) (48:B0) [05:35:30:799]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:799]: Executing op: FolderRemove(Folder=C:\Program Files\CrowdStrike\,Foreign=0)
+MSI (s) (48:B0) [05:35:30:799]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:800]: Executing op: FolderRemove(Folder=C:\Program Files\CrowdStrike\Extensibility\,Foreign=0)
+MSI (s) (48:B0) [05:35:30:800]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:800]: Executing op: FolderRemove(Folder=C:\Program Files\CrowdStrike\Extensibility\FXML\,Foreign=0)
+MSI (s) (48:B0) [05:35:30:800]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:801]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:801]: Executing op: FolderRemove(Folder=C:\Program Files\CrowdStrike\Extensibility\IDP\,Foreign=0)
+MSI (s) (48:B0) [05:35:30:801]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:801]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:801]: Executing op: FolderRemove(Folder=C:\Program Files\CrowdStrike\Extensibility\MEMSCAN\,Foreign=0)
+MSI (s) (48:B0) [05:35:30:802]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:802]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:802]: Executing op: FolderRemove(Folder=C:\Program Files\CrowdStrike\Extensibility\LEDGER\,Foreign=0)
+MSI (s) (48:B0) [05:35:30:802]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:803]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:803]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:803]: Executing op: FolderRemove(Folder=C:\ProgramData\CrowdStrike\,Foreign=0)
+MSI (s) (48:B0) [05:35:30:804]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:804]: Executing op: FolderRemove(Folder=C:\ProgramData\CrowdStrike\ZeroTrustAssessment\,Foreign=0)
+MSI (s) (48:B0) [05:35:30:804]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:804]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:805]: Executing op: FolderRemove(Folder=C:\ProgramData\CrowdStrike\QuarantineReleaseRemovableMedia\,Foreign=0)
+MSI (s) (48:B0) [05:35:30:805]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:805]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:30:805]: Executing op: ActionStart(Name=ExecXmlFileRollback,,)
+MSI (s) (48:B0) [05:35:30:806]: Executing op: CustomActionSchedule(Action=ExecXmlFileRollback,ActionType=11521,Source=BinaryData,Target=**********,CustomActionData=**********)
+MSI (s) (48:B0) [05:35:30:807]: Executing op: ActionStart(Name=ExecXmlFile,,)
+MSI (s) (48:B0) [05:35:30:807]: Executing op: CustomActionSchedule(Action=ExecXmlFile,ActionType=11265,Source=BinaryData,Target=**********,CustomActionData=**********)
+MSI (s) (48:84) [05:35:30:808]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSI1713.tmp, Entrypoint: ExecXmlFile
+MSI (s) (48:B0) [05:35:30:819]: Executing op: ActionStart(Name=UnprotectInstallServicesRollbackCSFalconServiceExec,,)
+MSI (s) (48:B0) [05:35:30:820]: Executing op: CustomActionSchedule(Action=UnprotectInstallServicesRollbackCSFalconServiceExec,ActionType=11585,Source=BinaryData,Target=**********,CustomActionData=**********)
+MSI (s) (48:B0) [05:35:30:825]: Executing op: ActionStart(Name=CsUtilFlushSystemVolume,,)
+MSI (s) (48:B0) [05:35:30:825]: Executing op: CustomActionSchedule(Action=CsUtilFlushSystemVolume,ActionType=3137,Source=BinaryData,Target=FlushSystemVolume,)
+MSI (s) (48:48) [05:35:30:827]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSI1724.tmp, Entrypoint: FlushSystemVolume
+FlushSystemVolume:  Registry flush complete: 0
+FlushSystemVolume:  Flushing system volume: \\.\C:
+MSI (s) (48:B0) [05:35:31:521]: Executing op: ActionStart(Name=CsUtilStopSensorForRollback,,)
+FlushSystemVolume:  System volume flush complete: 0
+MSI (s) (48:B0) [05:35:31:522]: Executing op: CustomActionSchedule(Action=CsUtilStopSensorForRollback,ActionType=11521,Source=BinaryData,Target=**********,)
+MSI (s) (48:B0) [05:35:31:523]: Executing op: ActionStart(Name=CsUtilStopSensorForRollbackAfterStartServices,,)
+MSI (s) (48:B0) [05:35:31:523]: Executing op: CustomActionSchedule(Action=CsUtilStopSensorForRollbackAfterStartServices,ActionType=11521,Source=BinaryData,Target=**********,)
+MSI (s) (48:B0) [05:35:31:525]: Executing op: ActionStart(Name=UnprotectStartServicesRollbackCSFalconServiceExec,,)
+MSI (s) (48:B0) [05:35:31:526]: Executing op: CustomActionSchedule(Action=UnprotectStartServicesRollbackCSFalconServiceExec,ActionType=11585,Source=BinaryData,Target=**********,CustomActionData=**********)
+MSI (s) (48:B0) [05:35:31:531]: Executing op: ActionStart(Name=PublishProduct,Description=Publishing product information,)
+MSI (s) (48:B0) [05:35:31:532]: Executing op: CleanupConfigData()
+MSI (s) (48:B0) [05:35:31:532]: Executing op: RegisterPatchOrder(Continue=0,SequenceType=0,Remove=1)
+MSI (s) (48:B0) [05:35:31:532]: Note: 1: 1402 2: UNKNOWN\Installer\Products\707B717DF4B58024293E77AF38266A01\Patches 3: 2 
+MSI (s) (48:B0) [05:35:31:532]: Executing op: RegisterPatchOrder(Continue=0,SequenceType=1,Remove=1)
+MSI (s) (48:B0) [05:35:31:532]: Executing op: CleanupConfigData(RemovingProduct=1)
+MSI (s) (48:B0) [05:35:31:532]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\707B717DF4B58024293E77AF38266A01\Patches 3: 2 
+MSI (s) (48:B0) [05:35:31:532]: Executing op: ActionStart(Name=FgwepDriversCommit64,,)
+MSI (s) (48:B0) [05:35:31:533]: Executing op: CustomActionSchedule(Action=FgwepDriversCommit64,ActionType=3649,Source=BinaryData,Target=DriversCommit,CustomActionData={D717B707-5B4F-4208-92E3-77FA8362A610})
+MSI (s) (48:B0) [05:35:31:534]: Executing op: End(Checksum=0,ProgressTotalHDWord=0,ProgressTotalLDWord=13755400)
+MSI (s) (48:B0) [05:35:31:539]: Note: 1: 2265 2:  3: -2147287035 
+MSI (s) (48:B0) [05:35:31:539]: User policy value 'DisableRollback' is 0
+MSI (s) (48:B0) [05:35:31:539]: Machine policy value 'DisableRollback' is 0
+MSI (s) (48:B0) [05:35:31:541]: Note: 1: 2265 2:  3: -2147287035 
+MSI (s) (48:A0) [05:35:31:547]: Invoking remote custom action. DLL: C:\WINDOWS\Installer\MSI19F3.tmp, Entrypoint: DriversCommit
+MSI (s) (48:B0) [05:35:31:559]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:31:566]: Note: 1: 1321 2: C:\Config.Msi\705ed88.rbf 3: 5 
+MSI (s) (48:B0) [05:35:31:566]: Verifying accessibility of file: 705ed88.rbf
+Info 1903. Scheduling reboot operation: Deleting file C:\Config.Msi\705ed88.rbf. Must reboot to complete operation.
+MSI (s) (48:B0) [05:35:31:603]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:31:605]: Note: 1: 2318 2:  
+MSI (s) (48:B0) [05:35:31:606]: No System Restore sequence number for this installation.
+MSI (s) (48:B0) [05:35:31:606]: Unlocking Server
+MSI (s) (48:B0) [05:35:31:610]: PROPERTY CHANGE: Deleting UpdateStarted property. Its current value is '1'.
+Action ended 5:35:31: InstallFinalize. Return value 1.
+Action ended 5:35:31: INSTALL. Return value 1.
+Property(S): UpgradeCode = {6C191C3E-0B90-4580-8E3F-9A49FC86E37A}
+Property(S): BACKUPFOLDER = C:\Windows\ELAMBKUP\
+Property(S): INSTALLFOLDER = C:\WINDOWS\system32\drivers\CrowdStrike\
+Property(S): CSPROGFOLDER = C:\Program Files\CrowdStrike\
+Property(S): CsExtensibilityBaseFolder = C:\Program Files\CrowdStrike\Extensibility\
+Property(S): CsFxmlFolder = C:\Program Files\CrowdStrike\Extensibility\FXML\
+Property(S): CsIdpFolder = C:\Program Files\CrowdStrike\Extensibility\IDP\
+Property(S): CsMemScanFolder = C:\Program Files\CrowdStrike\Extensibility\MEMSCAN\
+Property(S): CsLedgerFolder = C:\Program Files\CrowdStrike\Extensibility\LEDGER\
+Property(S): CsDataFolder = C:\ProgramData\CrowdStrike\
+Property(S): CID = 3E16C0442BF145D6875DC3F655FFDC5A
+Property(S): AID = 1F6B4C43D31D4C72837D1FE505DF12C7
+Property(S): PROXYDISABLE = 1
+Property(S): System64Folder = C:\WINDOWS\system32\
+Property(S): SystemFolder = C:\WINDOWS\SysWOW64\
+Property(S): CsZtaDataFolder = C:\ProgramData\CrowdStrike\ZeroTrustAssessment\
+Property(S): CsQrrmDataFolder = C:\ProgramData\CrowdStrike\QuarantineReleaseRemovableMedia\
+Property(S): CSFOLDER = %SYSTEMROOT%\system32\drivers\CrowdStrike
+Property(S): CSDOWNLOADSFOLDER = %SYSTEMROOT%\system32\drivers\CrowdStrike\Downloads
+Property(S): CSCOMMONAPPDATAFOLDER = %PROGRAMDATA%\CrowdStrike
+Property(S): CSEXTENSIBILITYFOLDER = %ProgramFiles%\CrowdStrike\Extensibility
+Property(S): Uninstalling = 1
+Property(S): UninstallingForDowngrade = 1
+Property(S): FgwepDriversExecute64 = DriversUninstall22CSAgentCSAgent2CSBootCSBoot
+Property(S): FgwepDriversRollback64 = DriversUninstall2
+Property(S): FgwepDriversCommit64 = {D717B707-5B4F-4208-92E3-77FA8362A610}
+Property(S): FgwepRollbackProtectedServices64 = CSFalconServiceC:\WINDOWS\system32\drivers\CrowdStrike\CSBoot.sys
+Property(S): UnprotectServiceCSFalconServiceExec = **********
+Property(S): UnprotectStartServicesRollbackCSFalconServiceExec = **********
+Property(S): UnprotectInstallServicesRollbackCSFalconServiceExec = **********
+Property(S): UnregisterEventManifest = "wevtutil.exe" um "C:\Program Files\CrowdStrike\CSFalconService.man"
+Property(S): RollbackUnregisterEventManifest = "wevtutil.exe" im "C:\Program Files\CrowdStrike\CSFalconService.man"
+Property(S): ExecXmlFile = **********
+Property(S): ExecXmlFileRollback = **********
+Property(S): drivers = C:\WINDOWS\system32\drivers\
+Property(S): TARGETDIR = G:\
+Property(S): ProgramFiles64Folder = C:\Program Files\
+Property(S): CommonAppDataFolder = C:\ProgramData\
+Property(S): VersionNT = 603
+Property(S): ALLUSERS = 1
+Property(S): Manufacturer = CrowdStrike, Inc.
+Property(S): ProductCode = {D717B707-5B4F-4208-92E3-77FA8362A610}
+Property(S): ProductLanguage = 1033
+Property(S): ProductName = CrowdStrike Sensor Platform
+Property(S): ProductVersion = 6.44.15806.0
+Property(S): SecureCustomProperties = ADDPROVISIONINGTOKEN;PREVIOUSFOUND;PROVTOKEN;PW;WIX_ACCOUNT_ADMINISTRATORS;WIX_ACCOUNT_LOCALSYSTEM;WIX_ACCOUNT_USERS;WIX_DOWNGRADE_DETECTED;WIX_UPGRADE_DETECTED
+Property(S): MsiHiddenProperties = ADDPROVISIONINGTOKEN;CsUtilStopSensorForRollback;CsUtilStopSensorForRollbackAfterStartServices;CsUtilUninstallSensorForRollback;CsUtilUninstallSensorForRollbackAfterStartServices;ExecXmlFile;ExecXmlFileRollback;PROVTOKEN;PW;UnprotectInstallServicesRollbackCSFalconServiceExec;UnprotectServiceCSFalconServiceExec;UnprotectStartServicesRollbackCSFalconServiceExec;WriteProvisionToken
+Property(S): MsiLogFileLocation = C:\WINDOWS\TEMP\CrowdStrike Windows Sensor_20220908053518_002_Agent64.log
+Property(S): PackageCode = {25CEB0E0-A22C-4EA5-8704-E133EE757A09}
+Property(S): ProductState = 5
+Property(S): ARPSYSTEMCOMPONENT = 1
+Property(S): MSIFASTINSTALL = 7
+Property(S): DOWNGRADE = 1
+Property(S): REBOOT = ReallySuppress
+Property(S): IGNOREDEPENDENCIES = ALL
+Property(S): REMOVE = ALL
+Property(S): CURRENTDIRECTORY = C:\WINDOWS\system32
+Property(S): CLIENTUILEVEL = 3
+Property(S): MSICLIENTUSESEXTERNALUI = 1
+Property(S): CLIENTPROCESSID = 676
+Property(S): MsiSystemRebootPending = 1
+Property(S): PRODUCTLANGUAGE = 1033
+Property(S): VersionDatabase = 500
+Property(S): VersionMsi = 5.00
+Property(S): VersionNT64 = 603
+Property(S): WindowsBuild = 9600
+Property(S): ServicePackLevel = 0
+Property(S): ServicePackLevelMinor = 0
+Property(S): MsiNTProductType = 3
+Property(S): WindowsFolder = C:\WINDOWS\
+Property(S): WindowsVolume = C:\
+Property(S): INSTALLLEVEL = 1
+Property(S): RemoteAdminTS = 1
+Property(S): TempFolder = C:\WINDOWS\TEMP\
+Property(S): ProgramFilesFolder = C:\Program Files (x86)\
+Property(S): CommonFilesFolder = C:\Program Files (x86)\Common Files\
+Property(S): CommonFiles64Folder = C:\Program Files\Common Files\
+Property(S): AppDataFolder = C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\
+Property(S): FavoritesFolder = C:\WINDOWS\system32\config\systemprofile\Favorites\
+Property(S): NetHoodFolder = C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Network Shortcuts\
+Property(S): PersonalFolder = C:\WINDOWS\system32\config\systemprofile\Documents\
+Property(S): PrintHoodFolder = C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Printer Shortcuts\
+Property(S): RecentFolder = C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Recent\
+Property(S): SendToFolder = C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\Microsoft\Windows\SendTo\
+Property(S): TemplateFolder = C:\ProgramData\Microsoft\Windows\Templates\
+Property(S): LocalAppDataFolder = C:\WINDOWS\system32\config\systemprofile\AppData\Local\
+Property(S): MyPicturesFolder = C:\WINDOWS\system32\config\systemprofile\Pictures\
+Property(S): AdminToolsFolder = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\
+Property(S): StartupFolder = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\
+Property(S): ProgramMenuFolder = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\
+Property(S): StartMenuFolder = C:\ProgramData\Microsoft\Windows\Start Menu\
+Property(S): DesktopFolder = C:\Users\Public\Desktop\
+Property(S): FontsFolder = C:\WINDOWS\Fonts\
+Property(S): GPTSupport = 1
+Property(S): OLEAdvtSupport = 1
+Property(S): ShellAdvtSupport = 1
+Property(S): MsiAMD64 = 6
+Property(S): Msix64 = 6
+Property(S): Intel = 6
+Property(S): PhysicalMemory = 143104
+Property(S): VirtualMemory = 153936
+Property(S): AdminUser = 1
+Property(S): MsiTrueAdminUser = 1
+Property(S): LogonUser = SYSTEM
+Property(S): UserSID = S-1-5-18
+Property(S): UserLanguageID = 4105
+Property(S): ComputerName = CL0A2347
+Property(S): SystemLanguageID = 4105
+Property(S): ScreenX = 1024
+Property(S): ScreenY = 768
+Property(S): CaptionHeight = 23
+Property(S): BorderTop = 1
+Property(S): BorderSide = 1
+Property(S): TextHeight = 16
+Property(S): TextInternalLeading = 3
+Property(S): ColorBits = 32
+Property(S): TTCSupport = 1
+Property(S): Time = 5:35:31
+Property(S): Date = 2022-09-08
+Property(S): MsiNetAssemblySupport = 4.7.3062.0
+Property(S): MsiWin32AssemblySupport = 6.3.14393.5246
+Property(S): RedirectedDllSupport = 2
+Property(S): MsiRunningElevated = 1
+Property(S): Privileged = 1
+Property(S): USERNAME = EC2
+Property(S): COMPANYNAME = Amazon.com
+Property(S): Installed = 00:00:00
+Property(S): DATABASE = C:\WINDOWS\Installer\6fdb2f5.msi
+Property(S): OriginalDatabase = C:\WINDOWS\Installer\6fdb2f5.msi
+Property(S): UILevel = 2
+Property(S): Preselected = 1
+Property(S): ACTION = INSTALL
+Property(S): WIX_ACCOUNT_LOCALSYSTEM = NT AUTHORITY\SYSTEM
+Property(S): WIX_ACCOUNT_LOCALSERVICE = NT AUTHORITY\LOCAL SERVICE
+Property(S): WIX_ACCOUNT_NETWORKSERVICE = NT AUTHORITY\NETWORK SERVICE
+Property(S): WIX_ACCOUNT_ADMINISTRATORS = BUILTIN\Administrators
+Property(S): WIX_ACCOUNT_USERS = BUILTIN\Users
+Property(S): WIX_ACCOUNT_GUESTS = BUILTIN\Guests
+Property(S): WIX_ACCOUNT_PERFLOGUSERS = BUILTIN\Performance Log Users
+Property(S): WIX_ACCOUNT_PERFLOGUSERS_NODOMAIN = Performance Log Users
+Property(S): _CSDOWNLOADSFOLDER_0 = C:\WINDOWS\system32\drivers\CrowdStrike\Downloads\
+Property(S): ROOTDRIVE = G:\
+Property(S): CostingComplete = 1
+Property(S): OutOfDiskSpace = 0
+Property(S): OutOfNoRbDiskSpace = 0
+Property(S): PrimaryVolumeSpaceAvailable = 0
+Property(S): PrimaryVolumeSpaceRequired = 0
+Property(S): PrimaryVolumeSpaceRemaining = 0
+MSI (s) (48:B0) [05:35:31:626]: Note: 1: 1724 
+MSI (s) (48:B0) [05:35:31:626]: Product: CrowdStrike Sensor Platform -- Removal completed successfully.
+
+MSI (s) (48:B0) [05:35:31:627]: Windows Installer removed the product. Product Name: ******** Sensor Platform. Product Version: *.**.****. Product Language: 1033. Manufacturer: ***********, Inc.. Removal success or error status: 0.
+
+MSI (s) (48:B0) [05:35:31:629]: Deferring clean up of packages/files, if any exist
+MSI (s) (48:B0) [05:35:31:629]: MainEngineThread is returning 0
+MSI (s) (48:7C) [05:35:31:631]: RESTART MANAGER: Session closed.
+MSI (s) (48:7C) [05:35:31:631]: No System Restore sequence number for this installation.
+=== Logging stopped: 2022-09-08  5:35:31 ===
+MSI (s) (48:7C) [05:35:31:635]: User policy value 'DisableRollback' is 0
+MSI (s) (48:7C) [05:35:31:635]: Machine policy value 'DisableRollback' is 0
+MSI (s) (48:7C) [05:35:31:635]: Incrementing counter to disable shutdown. Counter after increment: 0
+MSI (s) (48:7C) [05:35:31:635]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\Rollback\Scripts 3: 2 
+MSI (s) (48:7C) [05:35:31:637]: Note: 1: 2265 2:  3: -2147287035 
+MSI (s) (48:7C) [05:35:31:637]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\Rollback\Scripts 3: 2 
+MSI (s) (48:7C) [05:35:31:637]: Decrementing counter to disable shutdown. If counter >= 0, shutdown will be denied.  Counter after decrement: -1
+MSI (s) (48:7C) [05:35:31:637]: Post-install cleanup: removing installer file 'C:\WINDOWS\Installer\6fdb2f5.msi'
+MSI (s) (48:7C) [05:35:31:647]: Destroying RemoteAPI object.
+MSI (s) (48:18) [05:35:31:647]: Custom Action Manager thread ending.
+MSI (c) (A4:EC) [05:35:31:648]: Decrementing counter to disable shutdown. If counter >= 0, shutdown will be denied.  Counter after decrement: -1
+MSI (c) (A4:EC) [05:35:31:648]: MainEngineThread is returning 0
+=== Verbose logging stopped: 2022-09-08  5:35:31 ===
+
